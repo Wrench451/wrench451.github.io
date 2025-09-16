@@ -1,9 +1,11 @@
 main:
-  - title: "Posts"
+  - title: "Accueil"
+    url: /
+  - title: "Nos campagnes"
+    url: /campagnes/
+  - title: "Impact local"
+    url: /impact/
+  - title: "Rejoignez-nous"
+    url: /rejoignez-nous/
+  - title: "Actualités"
     url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
-    url: /about/
