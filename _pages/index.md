@@ -15,9 +15,9 @@ Chez **Decabock**, nous donnons une seconde vie au bois en créant des objets un
 ## Pourquoi choisir Decabock ? 🤔​
 
 - **Artisanat 100% français** 🏡 : Des créations fabriquées localement, avec des matériaux nobles et sélectionnés pour leur durabilité.
-- **Personnalisation sur mesure** ​🛠️​ : Gravez vos initiales, un message ou un motif pour un objet qui vous ressemble. {: .text-justify}      
-- **Innovation discrète** 🖌️ : Des designs pratiques et élégants, comme notre dessous de verre avec décapsuleur intégré. {: .text-justify}
-- **Durabilité** 💪 : Des objets conçus pour durer, dans le respect de l’environnement. {: .text-justify}
+- **Personnalisation sur mesure** ​🛠️​ : Gravez vos initiales, un message ou un motif pour un objet qui vous ressemble.
+- **Innovation discrète** 🖌️ : Des designs pratiques et élégants, comme notre dessous de verre avec décapsuleur intégré. 
+- **Durabilité** 💪 : Des objets conçus pour durer, dans le respect de l’environnement.
 
 ## Rejoignez l’aventure Decabock
 

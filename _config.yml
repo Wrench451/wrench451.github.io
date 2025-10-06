@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Decabock
+subtitle: Artisant avant tout
 email: pcarteron.decabock@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Ensemble, faisons du bois un support d’expression et d’utilité qui transforme les petites choses du quotidien en expériences mémorables.
