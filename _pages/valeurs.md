@@ -19,8 +19,6 @@ Chez **Decabock**, nous portons une vision exigeante et humaine de l’artisanat
 > *« Le bois n’est pas une simple matière première : c’est un héritage. Notre mission est de le transformer en objets qui portent vos histoires, tout en préservant celles de la nature. »*
 > — **L’équipe Decabock**
 
----
-
 ## Nos objectifs : Donner du sens à chaque création
 
 Notre raison d’être ? **Créer des objets qui allient utilité, beauté et éthique**, tout en redonnant ses lettres de noblesse à l’artisanat français. Voici les piliers qui animent notre action au quotidien :
@@ -31,8 +29,6 @@ Notre raison d’être ? **Créer des objets qui allient utilité, beauté et é
 | **Promouvoir l’artisanat local** 🫂 | Nous mettons en lumière **les savoir-faire français** en collaborant avec des artisans passionnés. Nous organisons aussi des ateliers pour transmettre ces compétences.                                               | Des produits chargés de sens, qui soutiennent une économie solidaire et locale.               |
 | **Innover sans compromettre** 💡 | Nous repoussons les limites du design **sans sacrifier la durabilité**. Exemple : notre dessous de verre avec décapsuleur intégré, alliant praticité et élégance, tout en restant 100% recyclable.               | Des objets modernes, fonctionnels et respectueux de l’environnement.                          |
 | **Créer du lien** 🔗         | Nous croyons que chaque objet doit **raconter une histoire**. Grâce à la personnalisation (gravures, motifs), nous vous offrons la possibilité de créer des pièces uniques, reflétant votre identité.          | Des cadeaux ou objets du quotidien qui deviennent des souvenirs précieux et intemporels.       |
-
----
 
 ## Notre engagement qualité : L’excellence comme standard
 
