@@ -1,8 +1,8 @@
 main:
   - title: "Accueil"
     url: /
-  - title: "Nos campagnes"
-    url: /campagnes/
+  - title: "Nos valeurs"
+    url: /valeurs/
   - title: "Impact local"
     url: /impact/
   - title: "Rejoignez-nous"
