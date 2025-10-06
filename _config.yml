@@ -16,10 +16,11 @@
 title: Decabock
 email: pcarteron.decabock@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Documentez et partagez vos actions de science citoyenne pour protéger l'environnement local.
-  Suivez nos campagnes de relevés, découvrez notre impact et rejoignez notre communauté engagée.
-twitter_username: jedi-track
-github_username: jedi-track
+  Ensemble, faisons du bois un support d’expression et d’utilité qui transforme les petites choses du quotidien en expériences mémorables.
+instagram_username: decabock_fr
+facebook:
+  app_id: 61569670629084
+linkedin_username: decabock
 minimal_mistakes_skin: default
 search: true
 
@@ -57,37 +58,37 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Groupe jedi-track"
+  name   : "Decabock"
   avatar : "/assets/images/logo.png"
-  bio    : "Équipe de citoyens engagés dans la surveillance environnementale de notre quartier."
+  bio    : "Quand l'artisanat se fait inventif et personnel."
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:pcarteron.decabock@gmail.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/jedi-track"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/Decabock"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/company/decabock"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/decabock_fr/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook"
-      url: "https://facebook.com/jedi-track"
+      url: "https://www.facebook.com/profile.php?id=61569670629084"
 
 footer:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:pcarteron.decabock@gmail.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/jedi-track"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/Decabock"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/company/decabock"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/decabock_fr/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook"
-      url: "https://facebook.com/jedi-track"
+      url: "https://www.facebook.com/profile.php?id=61569670629084"
 
 defaults:
   # _posts
@@ -101,7 +102,7 @@ defaults:
       comments: true
       share: true
       related: true
-      favicon: "/assets/images/favicon-32x32.png"
+      icon: "/assets/images/favicon-32x32.png"
       apple_touch_icon: "/assets/images/apple-icon-180x180.png"
   # _pages
   - scope:
@@ -110,7 +111,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      favicon: "/assets/images/favicon-32x32.png"
+      icon: "/assets/images/favicon-32x32.png"
       apple_touch_icon: "/assets/images/apple-icon-180x180.png"
 
 category_archive:
