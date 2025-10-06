@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Template Science Citoyenne
-email: contact@jedi-track.org
+title: Decabock
+email: pcarteron.decabock@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Documentez et partagez vos actions de science citoyenne pour protéger l'environnement local.
   Suivez nos campagnes de relevés, découvrez notre impact et rejoignez notre communauté engagée.
