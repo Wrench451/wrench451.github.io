@@ -5,8 +5,6 @@ layout: single
 author_profile: true
 ---
 
-## L’artisanat comme engagement
-
 Chez **Decabock**, nous portons une vision exigeante et humaine de l’artisanat. Pour nous, chaque objet en bois est bien plus qu’un produit : c’est le fruit d’un **savoir-faire authentique**, d’un **respect profond pour l’environnement** et d’un **attachement à notre territoire**. Nos valeurs ne sont pas de simples mots, mais des principes qui guident chaque geste, chaque choix et chaque création.
 {: .text-justify}
 
