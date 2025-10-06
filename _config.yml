@@ -63,13 +63,13 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:contact@jedi-track.org"
+      url: "mailto:pcarteron.decabock@gmail.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/jedi-track"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/jedi-track"
+      url: "https://github.com/Decabock"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook"
       url: "https://facebook.com/jedi-track"
@@ -78,13 +78,13 @@ footer:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:contact@jedi-track.org"
+      url: "mailto:pcarteron.decabock@gmail.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/jedi-track"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/jedi-track"
+      url: "https://github.com/Decabock"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook"
       url: "https://facebook.com/jedi-track"
@@ -101,6 +101,8 @@ defaults:
       comments: true
       share: true
       related: true
+      favicon: "/assets/images/favicon-32x32.png"
+      apple_touch_icon: "/assets/images/apple-icon-180x180.png"
   # _pages
   - scope:
       path: "_pages"
@@ -108,6 +110,8 @@ defaults:
     values:
       layout: single
       author_profile: true
+      favicon: "/assets/images/favicon-32x32.png"
+      apple_touch_icon: "/assets/images/apple-icon-180x180.png"
 
 category_archive:
   type: liquid
