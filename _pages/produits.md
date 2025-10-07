@@ -20,12 +20,22 @@ Chez **Decabock**, nous allions **artisanat, personnalisation et durabilité** p
 
 #### Galerie Photos
 
-<div class="carousel">
-  <div class="carousel-inner">
-    <img src="/assets/images/decabock/DB_Twinning_Comitee_Linkded.jpeg" alt="Decabock - Vue de face" class="carousel-img">
-    <img src="/assets/images/decabock/DB_Aimanté_Twinning_Comitee_Linkded.jpeg" alt="Decabock - Décapsuleur" class="carousel-img">
-    <img src="/assets/images/decabock/DB_Support_Verso_Twinning_Comitee.jpeg" alt="Decabock - Gravure personnalisée" class="carousel-img">
+<div class="carousel-container">
+  <button class="carousel-button prev" onclick="moveSlide(-1, 'carousel-1')">❮</button>
+  <div class="carousel" id="carousel-1">
+    <div class="carousel-inner">
+      <div class="carousel-slide">
+        <img src="/assets/images/decabock/DB_Twinning_Comitee_Linkded.jpeg" alt="Decabock - Vue de face" class="carousel-img">
+      </div>
+      <div class="carousel-slide">
+        <img src="/assets/images/decabock/DB_Aimanté_Twinning_Comitee_Linkded.jpeg" alt="Decabock - Décapsuleur" class="carousel-img">
+      </div>
+      <div class="carousel-slide">
+        <img src="/assets/images/decabock/DB_Support_Verso_Twinning_Comitee.jpeg" alt="Decabock - Gravure personnalisée" class="carousel-img">
+      </div>
+    </div>
   </div>
+  <button class="carousel-button next" onclick="moveSlide(1, 'carousel-1')">❯</button>
 </div>
 
 ### 2️⃣ Bouchons de vin en bois
@@ -39,11 +49,19 @@ Chez **Decabock**, nous allions **artisanat, personnalisation et durabilité** p
 
 #### Galerie Photos
 
-<div class="carousel">
-  <div class="carousel-inner">
-    <img src="/assets/images/bouchons/bouchon_debout_jppja.jpg" alt="Bouchon en chêne" class="carousel-img">
-    <img src="/assets/images/bouchons/bouchon_haut_Family.jpg" alt="Bouchon gravé" class="carousel-img">
+<div class="carousel-container">
+  <button class="carousel-button prev" onclick="moveSlide(-1, 'carousel-2')">❮</button>
+  <div class="carousel" id="carousel-2">
+    <div class="carousel-inner">
+      <div class="carousel-slide">
+        <img src="/assets/images/bouchons/bouchon_debout_jppja.jpg" alt="Bouchon en chêne" class="carousel-img">
+      </div>
+      <div class="carousel-slide">
+        <img src="/assets/images/bouchons/bouchon_haut_Family.jpg" alt="Bouchon gravé" class="carousel-img">
+      </div>
+    </div>
   </div>
+  <button class="carousel-button next" onclick="moveSlide(1, 'carousel-2')">❯</button>
 </div>
 
 <!-- ### 3️⃣ Planche à découper personnalisée
@@ -87,42 +105,38 @@ Chez **Decabock**, nous allions **artisanat, personnalisation et durabilité** p
 Découvrez en avant-première nos **prochains produits** que nous avons préparez pour vous ! Concatez-nous pour être informé(e) des prochaines sorties.
 
 <div class="coming-soon-product">
-  <div class="coming-soon-image" style="background-image: url('\assets\images\coming-soon\planche_a_decouper.png');"></div>
   <div class="coming-soon-content">
     <h3 class="coming-soon-title">🔥 Nouveau produit : La planche à découper</h3>
-    <p class="coming-soon-description" style="text-align: justify">
-        Une <strong>planche à découper</strong>  pour vos apéros entre amis ou pour cuisiner en famille. <br>
-        <strong>Personnalisable :</strong> Personnaliser le selon vos envies à partir de notre catalogue de designs ou contactez-nous pour une personnalisation unique.<br><br>
-        Sortie prévue le <strong>15 novembre 2025</strong>.
+    <p class="coming-soon-description" style="text-align: justify;">
+      Une <strong>planche à découper</strong> pour vos apéros entre amis ou pour cuisiner en famille. <br>
+      <strong>Personnalisable :</strong> Personnalisez-la selon vos envies à partir de notre catalogue de designs ou contactez-nous pour une personnalisation unique.<br><br>
+      Sortie prévue le <strong>15 novembre 2025</strong> :
+      <span class="inline-countdown" id="countdown-1">
+        <span class="countdown-days" id="days-1">--</span>j
+        <span class="countdown-hours" id="hours-1">--</span>h
+        <span class="countdown-minutes" id="minutes-1">--</span>min
+        <span class="countdown-seconds" id="seconds-1">--</span>s
+      </span>
     </p>
-    <div class="countdown" id="countdown-1">
-      <!-- Le décompte sera généré par JavaScript -->
-      <span class="countdown-days" id="days-1">--</span> jours
-      <span class="countdown-hours" id="hours-1">--</span> heures
-      <span class="countdown-minutes" id="minutes-1">--</span> minutes
-      <span class="countdown-seconds" id="seconds-1">--</span> secondes    
-    </div>
-    <img class="coming-soon-image" src="/assets/images/coming-soon/planche_a_decouper.png"/>  
+    <img class="coming-soon-image" src="/assets/images/coming-soon/planche_a_decouper.png"/>
   </div>
 </div>
 
-<div class="coming-soon">
-  <div class="coming-soon-image" style="background-image: url('/assets/images/coming-soon/porte_cles.png');"></div>
+<div class="coming-soon-product">
   <div class="coming-soon-content">
-    <h3 class="coming-soon-title">🔥 Nouveau produit : Le porte clé en bois</h3>
-    <p class="coming-soon-description" style="text-align: justify">
-        Des <strong>porte-clés en bois</strong> légers et résistants afin de les accrocher où vous le souhaitez. <br>
-        <strong>Personnalisable :</strong> Personnaliser le selon vos envies à partir de notre catalogue de designs ou contactez-nous pour une personnalisation unique.<br><br>
-        Sortie prévue le <strong>1 décembre 2025</strong>.
+    <h3 class="coming-soon-title">🔥 Nouveau produit : Le porte-clés en bois</h3>
+    <p class="coming-soon-description" style="text-align: justify;">
+      Des <strong>porte-clés en bois</strong> légers et résistants afin de les accrocher où vous le souhaitez. <br>
+      <strong>Personnalisable :</strong> Personnalisez-les selon vos envies à partir de notre catalogue de designs ou contactez-nous pour une personnalisation unique.<br><br>
+      Sortie prévue le <strong>1 décembre 2025</strong> :
+      <span class="inline-countdown" id="countdown-2">
+        <span class="countdown-days" id="days-2">--</span>j
+        <span class="countdown-hours" id="hours-2">--</span>h
+        <span class="countdown-minutes" id="minutes-2">--</span>min
+        <span class="countdown-seconds" id="seconds-2">--</span>s
+      </span>
     </p>
-    <div class="countdown" id="countdown-2">
-      <!-- Le décompte sera généré par JavaScript -->
-      <span class="countdown-days" id="days-2">--</span> jours
-      <span class="countdown-hours" id="hours-2">--</span> heures
-      <span class="countdown-minutes" id="minutes-2">--</span> minutes
-      <span class="countdown-seconds" id="seconds-2">--</span> secondes
-    </div>
-    <img class="coming-soon-image" src="/assets/images/coming-soon/porte_cles.png"/>    
+    <img class="coming-soon-image" src="/assets/images/coming-soon/porte_cles.png"/>
   </div>
 </div>
 

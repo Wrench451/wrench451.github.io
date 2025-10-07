@@ -100,8 +100,77 @@ table span {
 
 /*#region ------ Style pour la page des produits ------ */
 
+/* Conteneur du carrousel */
+.carousel-container {
+  position: relative;
+  max-width: 100%;
+  margin: 1rem auto;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+/* Carrousel */
+.carousel {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Conteneur des slides */
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+/* Chaque slide */
+.carousel-slide {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Images du carrousel */
+.carousel-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Boutons de navigation */
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  transition: background-color 0.3s;
+}
+
+.carousel-button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.carousel-button.prev {
+  left: 1rem;
+}
+
+.carousel-button.next {
+  right: 1rem;
+}
+
 /* Styles pour la page produits uniquement */
-.products-page .coming-soon-product {
+.coming-soon-product {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -115,7 +184,7 @@ table span {
   margin-right: auto;
 }
 
-.products-page .coming-soon-image {
+.coming-soon-image {
   width: 100%;
   max-width: 400px;
   height: 250px;
@@ -123,30 +192,46 @@ table span {
   background-position: center;
   border-radius: 8px;
   margin-bottom: 1rem;
-  filter: blur(2px);
+  filter: blur(7.5px);
 }
 
-.products-page .coming-soon-title {
+.coming-soon-title {
   color: #5a9b8e;
   margin-bottom: 0.75rem;
   font-size: 1.3rem;
 }
 
-.products-page .coming-soon-description {
+.coming-soon-description {
   margin-bottom: 1rem;
   line-height: 1.5;
 }
 
-.products-page .countdown {
-  margin: 1rem 0;
-  font-size: 1.1rem;
-  display: block;
+.inline-countdown {
+  display: inline-block;
+  margin-left: 0.5rem;
+  font-size: 0.9em;
 }
 
-.products-page .countdown-days,
-.products-page .countdown-hours,
-.products-page .countdown-minutes,
-.products-page .countdown-seconds {
+.inline-countdown span {
+  display: inline;
+  color: #5a9b8e;
+  font-weight: bold;
+  margin-right: 0.2rem;
+}
+
+/* .countdown-days, 
+.countdown-hours, 
+.countdown-minutes, 
+.countdown-seconds {
+  background-color: #f0f0f0;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+} */
+
+.countdown-days,
+.countdown-hours,
+.countdown-minutes,
+.countdown-seconds {
   display: inline-block;
   min-width: 2rem;
   padding: 0.4rem 0.6rem;
@@ -157,7 +242,7 @@ table span {
   font-size: 0.9rem;
 }
 
-.products-page .btn-coming-soon {
+.btn-coming-soon {
   display: inline-block;
   background-color: #5a9b8e;
   color: white;
@@ -169,7 +254,7 @@ table span {
   font-size: 0.9rem;
 }
 
-.products-page .btn-coming-soon:hover {
+.btn-coming-soon:hover {
   background-color: #4a8b7e;
 }
 /*#endregion ------ Style pour la page des produits ------ */
