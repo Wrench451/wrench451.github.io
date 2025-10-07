@@ -3,8 +3,8 @@ main:
     url: /
   - title: "Nos valeurs"
     url: /valeurs/
-  - title: "Impact local"
-    url: /impact/
+  - title: "Nos produits"
+    url: /produits/
   - title: "Nous contacter"
     url: /nous-contacter/
   - title: "Actualités"

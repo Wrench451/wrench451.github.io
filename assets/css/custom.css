@@ -1,3 +1,5 @@
+/*#region ------ Style pour le formulaire de contact ------ */
+
 /* Style pour le formulaire de contact */
 .contact-form {
   max-width: 600px;
@@ -93,3 +95,130 @@ table span {
   font-size: 0.9em;
   margin-left: 0.5rem;
 }
+
+/*#endregion ------ Style pour le formulaire de contact ------ */
+
+/*#region ------ Style pour la page des produits ------ */
+
+/* Styles pour la page produits uniquement */
+.products-page .coming-soon-product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.products-page .coming-soon-image {
+  width: 100%;
+  max-width: 400px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  filter: blur(2px);
+}
+
+.products-page .coming-soon-title {
+  color: #5a9b8e;
+  margin-bottom: 0.75rem;
+  font-size: 1.3rem;
+}
+
+.products-page .coming-soon-description {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.products-page .countdown {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+}
+
+.products-page .countdown-days,
+.products-page .countdown-hours,
+.products-page .countdown-minutes {
+  display: inline-block;
+  min-width: 2rem;
+  padding: 0.4rem 0.6rem;
+  background-color: #5a9b8e;
+  color: white;
+  border-radius: 4px;
+  margin: 0 0.2rem;
+  font-size: 0.9rem;
+}
+
+.products-page .btn-coming-soon {
+  display: inline-block;
+  background-color: #5a9b8e;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+}
+
+.products-page .btn-coming-soon:hover {
+  background-color: #4a8b7e;
+}
+
+/* Styles pour la section newsletter */
+.products-page .newsletter-section-products {
+  margin: 3rem auto;
+  padding: 2rem;
+  max-width: 600px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.products-page .newsletter-title {
+  margin-bottom: 1.5rem;
+  color: #5a9b8e;
+}
+
+.products-page .newsletter-form-group {
+  margin-bottom: 1rem;
+}
+
+.products-page .newsletter-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.products-page .newsletter-input {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 1rem;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.products-page .btn-newsletter {
+  background-color: #5a9b8e;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.products-page .btn-newsletter:hover {
+  background-color: #4a8b7e;
+}
+
+/*#endregion ------ Style pour la page des produits ------ */
