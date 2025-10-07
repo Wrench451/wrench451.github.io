@@ -87,57 +87,56 @@ Chez **Decabock**, nous allions **artisanat, personnalisation et durabilité** p
 Découvrez en avant-première nos **prochains produits** que nous avons préparez pour vous ! Concatez-nous pour être informé(e) des prochaines sorties.
 
 <div class="coming-soon-product">
-  <div class="coming-soon-image" style="background-image: url('/assets/images/coming-soon/planche_a_decouper.png');"></div>
+  <div class="coming-soon-image" style="background-image: url('\assets\images\coming-soon\planche_a_decouper.png');"></div>
   <div class="coming-soon-content">
     <h3 class="coming-soon-title">🔥 Nouveau produit : La planche à découper</h3>
     <p class="coming-soon-description">
-        Une <strong>planche à découper</strong>  pour vos apéros entre amis ou pour cuisiner en famille. </Br></Br>
-        <strong>Personnalisable :</strong> Personnaliser le selon vos envies à partir de notre catalogue de designs ou contactez-nous pour une personnalisation unique.
-        Sortie prévue le **15 novembre 2025**.
+        Une <strong>planche à découper</strong>  pour vos apéros entre amis ou pour cuisiner en famille. \n\n
+        <strong>Personnalisable :</strong> Personnaliser le selon vos envies à partir de notre catalogue de designs ou contactez-nous pour une personnalisation unique.\n\n
+        Sortie prévue le <strong>15 novembre 2025</strong>.
     </p>
     <div class="countdown" id="countdown-1">
       <!-- Le décompte sera généré par JavaScript -->
-      <span class="countdown-days" id="days1">--</span> jours
-      <span class="countdown-hours" id="hours1">--</span> heures
-      <span class="countdown-minutes" id="days1">--</span> minutes
+      <span class="countdown-days" id="days-1">--</span> jours
+      <span class="countdown-hours" id="hours-1">--</span> heures
+      <span class="countdown-minutes" id="minutes-1">--</span> minutes
     </div>
   </div>
 </div>
 
 <div class="coming-soon">
-  <div class="coming-soon-image" style="background-image: url('/assets/images/coming-soon/porte_cles.png');"></div>
+  <div class="coming-soon-image" style="background-image: url('\assets\images\coming-soon\porte_cles.png');"></div>
   <div class="coming-soon-content">
     <h3 class="coming-soon-title">🔥 Nouveau produit : Le porte clé en bois</h3>
     <p class="coming-soon-description">
-        Des <strong>porte-clés en bois</strong> légers et résistants afin de les accrocher où vous le souhaitez. </Br></Br>
-        <strong>Personnalisable :</strong> Personnaliser le selon vos envies à partir de notre catalogue de designs ou contactez-nous pour une personnalisation unique.
-        Sortie prévue le *1 décembre 2025**.
+        Des <strong>porte-clés en bois</strong> légers et résistants afin de les accrocher où vous le souhaitez. \n\n
+        <strong>Personnalisable :</strong> Personnaliser le selon vos envies à partir de notre catalogue de designs ou contactez-nous pour une personnalisation unique.\n\n
+        Sortie prévue le <strong>1 décembre 2025</strong>.
     </p>
     <div class="countdown" id="countdown-2">
       <!-- Le décompte sera généré par JavaScript -->
-      <span class="countdown-days" id="days2">--</span> jours
-      <span class="countdown-hours" id="hours2">--</span> heures
-      <span class="countdown-minutes" id="days2">--</span> minutes
+      <span class="countdown-days" id="days-2">--</span> jours
+      <span class="countdown-hours" id="hours-2">--</span> heures
+      <span class="countdown-minutes" id="minutes-2">--</span> minutes
     </div>
   </div>
 </div>
 
-
-{% raw %}
 <script>
-    const countdownDate1 = new Date("Nov 15, 2025 09:00:00").getTime();
-    const countdown1 = setInterval(function() {
-        updateCountdown(countdownDateVin, "countdown-1");
-    }, 1000);
+  // Décompte pour la planche à découper (15 novembre 2025)
+  const countdownDate1 = new Date("Nov 15, 2025 09:00:00").getTime();
+  const countdown1 = setInterval(function() {
+    updateCountdown(countdownDate1, "countdown-1");
+  }, 1000);
 
-    // Décompte pour les coasters (date : 1 décembre 2025)
-    const countdownDate2 = new Date("Dec 1, 2025 09:00:00").getTime();
-    const countdown2 = setInterval(function() {
-    updateCountdown(countdownDateCoasters, "countdown-2");
-    }, 1000);
+  // Décompte pour le porte-clés (1 décembre 2025)
+  const countdownDate2 = new Date("Dec 1, 2025 09:00:00").getTime();
+  const countdown2 = setInterval(function() {
+    updateCountdown(countdownDate2, "countdown-2");
+  }, 1000);
 
-    // Fonction générique pour mettre à jour un décompte
-    function updateCountdown(countdownDate, elementId) {
+  // Fonction générique pour mettre à jour un décompte
+  function updateCountdown(countdownDate, elementId) {
     const now = new Date().getTime();
     const distance = countdownDate - now;
 
@@ -153,10 +152,9 @@ Découvrez en avant-première nos **prochains produits** que nous avons prépare
 
     // Si le décompte est terminé
     if (distance < 0) {
-        clearInterval(countdown1);
-        clearInterval(countdown2);
-        document.getElementById(elementId).innerHTML = "<p style='color: #5a9b8e; font-weight: bold;'>Disponible maintenant !</p>";
+      clearInterval(countdown1);
+      clearInterval(countdown2);
+      document.getElementById(elementId).innerHTML = "<p style='color: #5a9b8e; font-weight: bold;'>Disponible maintenant !</p>";
     }
-    }
+  }
 </script>
-{% endraw %}
