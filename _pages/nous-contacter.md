@@ -73,13 +73,36 @@ Remplissez le formulaire ci-dessous pour nous envoyer un message. Nous vous rép
 
 ## Autres moyens de nous contacter
 
-| Canal          | Détails |
-|:--------------:|:--------|
-| **Email**      | [pcarteron.decabock@gmail.com](mailto\:pcarteron.decabock@gmail.com) |
-| **Téléphone**  | +33 7 82 70 26 72 (du lundi au vendredi, 9h-18h) |
-| **Instagram**  | [Instagram](https://www.instagram.com/decabock_fr/) |
-| **Facebook**   | [Facebook](https://www.facebook.com/profile.php?id=61569670629084) |
-| **LinkedIn**   | [LinkedIn](https://www.linkedin.com/company/decabock) |
+<table>
+  <thead>
+    <tr>
+      <th>Canal</th>
+      <th>Détails</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><i class="fas fa-fw fa-envelope"></i> <strong>Email</strong></td>
+      <td><a href="mailto:pcarteron.decabock@gmail.com">pcarteron.decabock@gmail.com</a></td>
+    </tr>
+    <tr>
+      <td><i class="fas fa-fw fa-phone"></i> <strong>Téléphone</strong></td>
+      <td>+33 7 82 70 26 72 (du lundi au vendredi, 9h-18h)</td>
+    </tr>
+    <tr>
+      <td><i class="fab fa-fw fa-instagram"></i> <strong>Instagram</strong></td>
+      <td><a href="https://www.instagram.com/decabock_fr/" target="_blank">Instagram</a></td>
+    </tr>
+    <tr>
+      <td><i class="fab fa-fw fa-facebook"></i> <strong>Facebook</strong></td>
+      <td><a href="https://www.facebook.com/profile.php?id=61569670629084" target="_blank">Facebook</a></td>
+    </tr>
+    <tr>
+      <td><i class="fab fa-fw fa-linkedin"></i> <strong>LinkedIn</strong></td>
+      <td><a href="https://www.linkedin.com/company/decabock" target="_blank">LinkedIn</a></td>
+    </tr>
+  </tbody>
+</table>
 
 {% raw %}
 <script>
@@ -88,13 +111,19 @@ Remplissez le formulaire ci-dessous pour nous envoyer un message. Nous vous rép
     const nom = document.getElementById("nom").value;
     const prenom = document.getElementById("prenom").value;
     const typeDemande = document.getElementById("type-demande").value;
+    const typeDemandeText = typeDemande.options[typeDemande.selectedIndex].text;
     const objet = document.getElementById("objet").value;
     const message = document.getElementById("message").value;
 
     // Construire le lien mailto
     const subject = encodeURIComponent(`[Decabock] ${typeDemande} : ${objet}`);
     const body = encodeURIComponent(
-      `Bonjour,\n\nJe m'appelle ${prenom} ${nom} et je vous contacte concernant : ${typeDemande}.\n\nObjet : ${objet}\n\nMessage : ${message}\n\nCordialement,`
+      `Bonjour,\n\n` + 
+      `Je m'appelle ${prenom} ${nom} et je vous contacte concernant : ${typeDemandeText}.` + 
+      `\n\nObjet : ${objet}` + 
+      `\n\nMessage : ${message}` + 
+      `\n\nCordialement,` + 
+      `\n\n ${nom} ${prenom}`
     );
 
     // Ouvrir le client mail
