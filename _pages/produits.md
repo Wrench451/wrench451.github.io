@@ -11,15 +11,6 @@ Chez **Decabock**, nous allions **artisanat, personnalisation et durabilité** p
 
 ### 1️⃣ Decabock : Le dessous de verre intelligent
 
-| **Détails** | **Informations** |
-|:-----------:|------------------|
-| **Description** | Un dessous de verre élégant avec un **décapsuleur intégré** et une **gravure personnalisable**. Idéal pour les apéros, cadeaux ou décoration. |
-| **Personnalisation** | 10 motifs disponibles + gravure de texte personnalisé (nom, message, logo).                        |
-| **Prix**            | 24,90 € (livraison incluse en France métropolitaine).                                               |
-| **Photos**          | *(Carrousel ci-dessous)*                                                                           |
-
-#### Galerie Photos
-
 <div class="carousel-container">
   <button class="carousel-button prev" onclick="moveSlide(-1, 'carousel-1')">❮</button>
   <div class="carousel" id="carousel-1">
@@ -38,16 +29,13 @@ Chez **Decabock**, nous allions **artisanat, personnalisation et durabilité** p
   <button class="carousel-button next" onclick="moveSlide(1, 'carousel-1')">❯</button>
 </div>
 
+| **Détails** | **Informations** |
+|:-----------:|------------------|
+| **Description** | Un dessous de verre élégant avec un **décapsuleur intégré** et une **gravure personnalisable**. Idéal pour les apéros, cadeaux ou décoration. |
+| **Personnalisation** | + de 50 motifs disponibles et des gravures de texte personnalisé (nom, message, logo) |
+| **Prix**            | 4,90 € (l'unité) / 17,90€ (lot de 4) - (Livraison possible en France métropolitaine) |
+
 ### 2️⃣ Bouchons de vin en bois
-
-| **Détails**          | **Informations** |
-|:--------------------:|------------------|
-| **Description**      | Des bouchons en bois **écologiques et réutilisables**, parfaits pour conserver vos bouteilles ouvertes. Disponibles en chêne ou hêtre. |
-| **Personnalisation** | 5 modèles de gravure (initiales, motifs vignes, etc.). |
-| **Prix**            | 12,90 € (lot de 2) / 22,90 € (lot de 4). |
-| **Photos**          | *(Carrousel ci-dessous)*                                                                           |
-
-#### Galerie Photos
 
 <div class="carousel-container">
   <button class="carousel-button prev" onclick="moveSlide(-1, 'carousel-2')">❮</button>
@@ -63,6 +51,12 @@ Chez **Decabock**, nous allions **artisanat, personnalisation et durabilité** p
   </div>
   <button class="carousel-button next" onclick="moveSlide(1, 'carousel-2')">❯</button>
 </div>
+
+| **Détails**          | **Informations** |
+|:--------------------:|------------------|
+| **Description**      | Des bouchons en bois **écologiques et réutilisables**, parfaits pour conserver vos bouteilles ouvertes. Disponibles en chêne ou hêtre. |
+| **Personnalisation** | + de 45 motifs disponibles et des gravures de texte personnalisé (nom, message, logo) |
+| **Prix**            | 2,90 € (l'unité) / 9,90 € (lot de 4) - (Livraison possible en France métropolitaine) |
 
 <!-- ### 3️⃣ Planche à découper personnalisée
 
