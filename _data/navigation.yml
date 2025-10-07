@@ -5,7 +5,7 @@ main:
     url: /valeurs/
   - title: "Impact local"
     url: /impact/
-  - title: "Rejoignez-nous"
-    url: /rejoignez-nous/
+  - title: "Nous contacter"
+    url: /nous-contacter/
   - title: "Actualités"
     url: /posts/
