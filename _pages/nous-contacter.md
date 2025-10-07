@@ -28,20 +28,24 @@ N’hésitez pas à nous écrire via le formulaire ci-dessous ou à nous suivre 
 Remplissez le formulaire ci-dessous pour nous envoyer un message. Nous vous répondrons dans les **24 à 48 heures**.
 
 <form id="contact-form" class="contact-form">
-  <!-- Champ : Nom et Prénom -->
+  <!-- Légende pour les champs obligatoires -->
+  <p class="required-legend"><span class="required-star">*</span> Champs obligatoires</p>
+
+  <!-- Champ : Nom -->
   <div class="form-group">
-    <label for="nom">Nom *</label>
+    <label for="nom">Nom <span class="required-star">*</span></label>
     <input type="text" id="nom" name="nom" placeholder="Votre nom" required class="form-control">
   </div>
 
+  <!-- Champ : Prénom -->
   <div class="form-group">
-    <label for="prenom">Prénom *</label>
+    <label for="prenom">Prénom <span class="required-star">*</span></label>
     <input type="text" id="prenom" name="prenom" placeholder="Votre prénom" required class="form-control">
   </div>
 
   <!-- Champ : Type de demande -->
   <div class="form-group">
-    <label for="type-demande">Type de demande *</label>
+    <label for="type-demande">Type de demande <span class="required-star">*</span></label>
     <select id="type-demande" name="type-demande" required class="form-control">
       <option value="" disabled selected>Sélectionnez un type de demande</option>
       <option value="Personnalisation">Personnalisation d’un produit</option>
@@ -53,13 +57,13 @@ Remplissez le formulaire ci-dessous pour nous envoyer un message. Nous vous rép
 
   <!-- Champ : Objet de la demande -->
   <div class="form-group">
-    <label for="objet">Objet de la demande *</label>
+    <label for="objet">Objet de la demande <span class="required-star">*</span></label>
     <input type="text" id="objet" name="objet" placeholder="Précisez l’objet de votre demande" required class="form-control">
   </div>
 
   <!-- Champ : Message -->
   <div class="form-group">
-    <label for="message">Message *</label>
+    <label for="message">Message <span class="required-star">*</span></label>
     <textarea id="message" name="message" placeholder="Votre message..." required rows="5" class="form-control"></textarea>
   </div>
 
@@ -77,32 +81,27 @@ Remplissez le formulaire ci-dessous pour nous envoyer un message. Nous vous rép
   <thead>
     <tr>
       <th>Canal</th>
-      <th>Détails</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><i class="fas fa-fw fa-envelope"></i> <strong>Email</strong></td>
-      <td><a href="mailto:pcarteron.decabock@gmail.com">pcarteron.decabock@gmail.com</a></td>
+      <td><i class="fas fa-fw fa-envelope"></i><a href="mailto:pcarteron.decabock@gmail.com">pcarteron.decabock@gmail.com</a></td>
     </tr>
     <tr>
-      <td><i class="fas fa-fw fa-phone"></i> <strong>Téléphone</strong></td>
-      <td>+33 7 82 70 26 72 (du lundi au vendredi, 9h-18h)</td>
+      <td><i class="fas fa-fw fa-phone"></i><a href="tel:+33782702672">+33 7 82 70 26 72</a> (du lundi au vendredi, 9h-18h)</td>
     </tr>
     <tr>
-      <td><i class="fab fa-fw fa-instagram"></i> <strong>Instagram</strong></td>
-      <td><a href="https://www.instagram.com/decabock_fr/" target="_blank">Instagram</a></td>
+      <td><i class="fab fa-fw fa-instagram"></i><a href="https://www.instagram.com/decabock_fr/" target="_blank">Instagram</a></td>
     </tr>
     <tr>
-      <td><i class="fab fa-fw fa-facebook"></i> <strong>Facebook</strong></td>
-      <td><a href="https://www.facebook.com/profile.php?id=61569670629084" target="_blank">Facebook</a></td>
+      <td><i class="fab fa-fw fa-facebook"></i><a href="https://www.facebook.com/profile.php?id=61569670629084" target="_blank">Facebook</a></td>
     </tr>
     <tr>
-      <td><i class="fab fa-fw fa-linkedin"></i> <strong>LinkedIn</strong></td>
-      <td><a href="https://www.linkedin.com/company/decabock" target="_blank">LinkedIn</a></td>
+      <td><i class="fab fa-fw fa-linkedin"></i><a href="https://www.linkedin.com/company/decabock" target="_blank">LinkedIn</a></td>
     </tr>
   </tbody>
 </table>
+
 
 {% raw %}
 <script>

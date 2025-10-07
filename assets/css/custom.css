@@ -1,13 +1,16 @@
+/* Style pour le formulaire de contact */
 .contact-form {
   max-width: 600px;
   margin: 0 auto;
   font-family: Arial, sans-serif;
 }
 
+/* Style pour les groupes de formulaire */
 .form-group {
   margin-bottom: 1.5rem;
 }
 
+/* Style pour les labels */
 .form-control {
   width: 100%;
   padding: 0.75rem;
@@ -16,6 +19,28 @@
   font-size: 1rem;
 }
 
+/* Style pour les labels */
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+/* Style pour les astérisques obligatoires */
+.required-star {
+  color: #ff0000; /* Rouge */
+  font-weight: bold;
+}
+
+/* Style pour la légende des champs obligatoires */
+.required-legend {
+  color: #666;
+  font-size: 0.9em;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+/* Style pour le bouton de soumission */
 .btn-submit {
   background-color: #5a9b8e; /* Couleur verte Decabock */
   color: white;
@@ -26,6 +51,19 @@
   font-size: 1rem;
 }
 
+/* Style pour le bouton au survol */
 .btn-submit\:hover {
   background-color: #4a8b7e;
+}
+
+/* Style spécifique pour le lien téléphone */
+table a[href^="tel:"] {
+  color: #5a9b8e;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Style pour le lien téléphone au survol */
+table a[href^="tel:"]:hover {
+  text-decoration: underline;
 }
