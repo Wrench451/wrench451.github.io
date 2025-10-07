@@ -85,19 +85,19 @@ Remplissez le formulaire ci-dessous pour nous envoyer un message. Nous vous rép
   </thead>
   <tbody>
     <tr>
-      <td><i class="fas fa-fw fa-envelope"></i><a href="mailto:pcarteron.decabock@gmail.com">pcarteron.decabock@gmail.com</a></td>
+      <td><i class="fas fa-fw fa-envelope"></i><a href="mailto:pcarteron.decabock@gmail.com"> pcarteron.decabock@gmail.com</a></td>
     </tr>
     <tr>
-      <td><i class="fas fa-fw fa-phone"></i><a href="tel:+33782702672">+33 7 82 70 26 72</a> (du lundi au vendredi, 9h-18h)</td>
+      <td><i class="fas fa-fw fa-phone"></i><a href="tel:+33782702672"> +33 7 82 70 26 72</a> (du lundi au vendredi, 9h-18h)</td>
     </tr>
     <tr>
-      <td><i class="fab fa-fw fa-instagram"></i><a href="https://www.instagram.com/decabock_fr/" target="_blank">Instagram</a></td>
+      <td><i class="fab fa-fw fa-instagram"></i><a href="https://www.instagram.com/decabock_fr/" target="_blank"> Instagram</a></td>
     </tr>
     <tr>
-      <td><i class="fab fa-fw fa-facebook"></i><a href="https://www.facebook.com/profile.php?id=61569670629084" target="_blank">Facebook</a></td>
+      <td><i class="fab fa-fw fa-facebook"></i><a href="https://www.facebook.com/profile.php?id=61569670629084" target="_blank"> Facebook</a></td>
     </tr>
     <tr>
-      <td><i class="fab fa-fw fa-linkedin"></i><a href="https://www.linkedin.com/company/decabock" target="_blank">LinkedIn</a></td>
+      <td><i class="fab fa-fw fa-linkedin"></i><a href="https://www.linkedin.com/company/decabock" target="_blank"> LinkedIn</a></td>
     </tr>
   </tbody>
 </table>
