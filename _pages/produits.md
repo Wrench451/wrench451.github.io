@@ -90,9 +90,9 @@ Découvrez en avant-première nos **prochains produits** que nous avons prépare
   <div class="coming-soon-image" style="background-image: url('\assets\images\coming-soon\planche_a_decouper.png');"></div>
   <div class="coming-soon-content">
     <h3 class="coming-soon-title">🔥 Nouveau produit : La planche à découper</h3>
-    <p class="coming-soon-description">
-        Une <strong>planche à découper</strong>  pour vos apéros entre amis ou pour cuisiner en famille. \n\n
-        <strong>Personnalisable :</strong> Personnaliser le selon vos envies à partir de notre catalogue de designs ou contactez-nous pour une personnalisation unique.\n\n
+    <p class="coming-soon-description" style="text-align: justify">
+        Une <strong>planche à découper</strong>  pour vos apéros entre amis ou pour cuisiner en famille. <br>
+        <strong>Personnalisable :</strong> Personnaliser le selon vos envies à partir de notre catalogue de designs ou contactez-nous pour une personnalisation unique.<br><br>
         Sortie prévue le <strong>15 novembre 2025</strong>.
     </p>
     <div class="countdown" id="countdown-1">
@@ -100,17 +100,19 @@ Découvrez en avant-première nos **prochains produits** que nous avons prépare
       <span class="countdown-days" id="days-1">--</span> jours
       <span class="countdown-hours" id="hours-1">--</span> heures
       <span class="countdown-minutes" id="minutes-1">--</span> minutes
+      <span class="countdown-seconds" id="seconds-1">--</span> secondes    
     </div>
+    <img class="coming-soon-image" src="/assets/images/coming-soon/planche_a_decouper.png"/>  
   </div>
 </div>
 
 <div class="coming-soon">
-  <div class="coming-soon-image" style="background-image: url('\assets\images\coming-soon\porte_cles.png');"></div>
+  <div class="coming-soon-image" style="background-image: url('/assets/images/coming-soon/porte_cles.png');"></div>
   <div class="coming-soon-content">
     <h3 class="coming-soon-title">🔥 Nouveau produit : Le porte clé en bois</h3>
-    <p class="coming-soon-description">
-        Des <strong>porte-clés en bois</strong> légers et résistants afin de les accrocher où vous le souhaitez. \n\n
-        <strong>Personnalisable :</strong> Personnaliser le selon vos envies à partir de notre catalogue de designs ou contactez-nous pour une personnalisation unique.\n\n
+    <p class="coming-soon-description" style="text-align: justify">
+        Des <strong>porte-clés en bois</strong> légers et résistants afin de les accrocher où vous le souhaitez. <br>
+        <strong>Personnalisable :</strong> Personnaliser le selon vos envies à partir de notre catalogue de designs ou contactez-nous pour une personnalisation unique.<br><br>
         Sortie prévue le <strong>1 décembre 2025</strong>.
     </p>
     <div class="countdown" id="countdown-2">
@@ -118,7 +120,9 @@ Découvrez en avant-première nos **prochains produits** que nous avons prépare
       <span class="countdown-days" id="days-2">--</span> jours
       <span class="countdown-hours" id="hours-2">--</span> heures
       <span class="countdown-minutes" id="minutes-2">--</span> minutes
+      <span class="countdown-seconds" id="seconds-2">--</span> secondes
     </div>
+    <img class="coming-soon-image" src="/assets/images/coming-soon/porte_cles.png"/>    
   </div>
 </div>
 
@@ -140,20 +144,21 @@ Découvrez en avant-première nos **prochains produits** que nous avons prépare
     const now = new Date().getTime();
     const distance = countdownDate - now;
 
-    // Calcul des jours, heures, minutes
+    // Calcul des jours, heures, minutes et secondes
     const days = Math.floor(distance / (1000 * 60 * 60 * 24));
     const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Mise à jour du DOM
     document.getElementById(`days-${elementId.split('-')[1]}`).innerText = days;
     document.getElementById(`hours-${elementId.split('-')[1]}`).innerText = hours;
     document.getElementById(`minutes-${elementId.split('-')[1]}`).innerText = minutes;
+    document.getElementById(`seconds-${elementId.split('-')[1]}`).innerText = seconds;
 
     // Si le décompte est terminé
     if (distance < 0) {
-      clearInterval(countdown1);
-      clearInterval(countdown2);
+      clearInterval(elementId === "countdown-1" ? countdown1 : countdown2);
       document.getElementById(elementId).innerHTML = "<p style='color: #5a9b8e; font-weight: bold;'>Disponible maintenant !</p>";
     }
   }
