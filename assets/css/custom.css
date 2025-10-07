@@ -161,12 +161,13 @@ table span {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
+/* Positionnement des flèches */
 .carousel-button.prev {
-  left: 1rem;
+  left: 10px; /* Ajustez cette valeur pour centrer verticalement */
 }
 
 .carousel-button.next {
-  right: 1rem;
+  right: 10px; /* Ajustez cette valeur pour centrer verticalement */
 }
 
 /* Styles pour la page produits uniquement */
@@ -206,55 +207,42 @@ table span {
   line-height: 1.5;
 }
 
-.inline-countdown {
-  display: inline-block;
-  margin-left: 0.5rem;
-  font-size: 0.9em;
+/* Conteneur pour la date et le compte à rebours */
+.release-info {
+  margin: 1.5rem 0;
+  text-align: center;
 }
 
-.inline-countdown span {
-  display: inline;
-  color: #5a9b8e;
+/* Style pour la date de sortie */
+.release-date {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+/* Conteneur pour centrer le compte à rebours */
+.countdown-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+/* Style pour le compte à rebours */
+.countdown {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 1rem;
+}
+
+.countdown span {
+  background-color: #5a9b8e;
+  padding: 0.3rem 0.5rem;
+  border-radius: 4px;
   font-weight: bold;
-  margin-right: 0.2rem;
-}
-
-/* .countdown-days, 
-.countdown-hours, 
-.countdown-minutes, 
-.countdown-seconds {
-  background-color: #f0f0f0;
-  padding: 0.2rem 0.4rem;
-  border-radius: 3px;
-} */
-
-.countdown-days,
-.countdown-hours,
-.countdown-minutes,
-.countdown-seconds {
+  color: white;  
   display: inline-block;
   min-width: 2rem;
-  padding: 0.4rem 0.6rem;
-  background-color: #5a9b8e;
-  color: white;
-  border-radius: 4px;
   margin: 0 0.2rem;
   font-size: 0.9rem;
-}
-
-.btn-coming-soon {
-  display: inline-block;
-  background-color: #5a9b8e;
-  color: white;
-  padding: 0.6rem 1.2rem;
-  border-radius: 4px;
-  text-decoration: none;
-  font-weight: bold;
-  margin-top: 0.75rem;
-  font-size: 0.9rem;
-}
-
-.btn-coming-soon:hover {
-  background-color: #4a8b7e;
 }
 /*#endregion ------ Style pour la page des produits ------ */

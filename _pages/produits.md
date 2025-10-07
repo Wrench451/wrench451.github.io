@@ -109,15 +109,19 @@ Découvrez en avant-première nos **prochains produits** que nous avons prépare
     <h3 class="coming-soon-title">🔥 Nouveau produit : La planche à découper</h3>
     <p class="coming-soon-description" style="text-align: justify;">
       Une <strong>planche à découper</strong> pour vos apéros entre amis ou pour cuisiner en famille. <br>
-      <strong>Personnalisable :</strong> Personnalisez-la selon vos envies à partir de notre catalogue de designs ou contactez-nous pour une personnalisation unique.<br><br>
-      Sortie prévue le <strong>15 novembre 2025</strong> :
-      <span class="inline-countdown" id="countdown-1">
-        <span class="countdown-days" id="days-1">--</span>j
-        <span class="countdown-hours" id="hours-1">--</span>h
-        <span class="countdown-minutes" id="minutes-1">--</span>min
-        <span class="countdown-seconds" id="seconds-1">--</span>s
-      </span>
+      <strong>Personnalisable :</strong> Personnalisez-la selon vos envies à partir de notre catalogue de designs ou contactez-nous pour une personnalisation unique.
     </p>
+    <div class="release-info">
+      <p class="release-date">Sortie prévue le <strong>15 novembre 2025</strong></p>
+      <div class="countdown-container">
+        <div class="countdown" id="countdown-1">
+          <span class="countdown-days" id="days-1">--</span>j
+          <span class="countdown-hours" id="hours-1">--</span>h
+          <span class="countdown-minutes" id="minutes-1">--</span>min
+          <span class="countdown-seconds" id="seconds-1">--</span>s
+        </div>
+      </div>
+    </div>
     <img class="coming-soon-image" src="/assets/images/coming-soon/planche_a_decouper.png"/>
   </div>
 </div>
@@ -127,15 +131,19 @@ Découvrez en avant-première nos **prochains produits** que nous avons prépare
     <h3 class="coming-soon-title">🔥 Nouveau produit : Le porte-clés en bois</h3>
     <p class="coming-soon-description" style="text-align: justify;">
       Des <strong>porte-clés en bois</strong> légers et résistants afin de les accrocher où vous le souhaitez. <br>
-      <strong>Personnalisable :</strong> Personnalisez-les selon vos envies à partir de notre catalogue de designs ou contactez-nous pour une personnalisation unique.<br><br>
-      Sortie prévue le <strong>1 décembre 2025</strong> :
-      <span class="inline-countdown" id="countdown-2">
-        <span class="countdown-days" id="days-2">--</span>j
-        <span class="countdown-hours" id="hours-2">--</span>h
-        <span class="countdown-minutes" id="minutes-2">--</span>min
-        <span class="countdown-seconds" id="seconds-2">--</span>s
-      </span>
+      <strong>Personnalisable :</strong> Personnalisez-les selon vos envies à partir de notre catalogue de designs ou contactez-nous pour une personnalisation unique.
     </p>
+    <div class="release-info">
+      <p class="release-date">Sortie prévue le <strong>1 décembre 2025</strong></p>
+      <div class="countdown-container">
+        <div class="countdown" id="countdown-2">
+          <span class="countdown-days" id="days-2">--</span>j
+          <span class="countdown-hours" id="hours-2">--</span>h
+          <span class="countdown-minutes" id="minutes-2">--</span>min
+          <span class="countdown-seconds" id="seconds-2">--</span>s
+        </div>
+      </div>
+    </div>
     <img class="coming-soon-image" src="/assets/images/coming-soon/porte_cles.png"/>
   </div>
 </div>
@@ -175,5 +183,31 @@ Découvrez en avant-première nos **prochains produits** que nous avons prépare
       clearInterval(elementId === "countdown-1" ? countdown1 : countdown2);
       document.getElementById(elementId).innerHTML = "<p style='color: #5a9b8e; font-weight: bold;'>Disponible maintenant !</p>";
     }
+  }
+
+  // Position initiale des carrousels
+  let currentSlide = {
+    'carousel-1': 0,
+    'carousel-2': 0
+  };
+
+  // Fonction pour déplacer les slides
+  function moveSlide(step, carouselId) {
+    const carousel = document.getElementById(carouselId);
+    const slides = carousel.querySelectorAll('.carousel-slide');
+    const totalSlides = slides.length;
+
+    // Mise à jour de la position actuelle
+    currentSlide[carouselId] += step;
+
+    // Gestion des limites
+    if (currentSlide[carouselId] < 0) {
+      currentSlide[carouselId] = totalSlides - 1;
+    } else if (currentSlide[carouselId] >= totalSlides) {
+      currentSlide[carouselId] = 0;
+    }
+
+    // Déplacement du carrousel
+    carousel.querySelector('.carousel-inner').style.transform = `translateX(-${currentSlide[carouselId] * 100}%)`;
   }
 </script>
