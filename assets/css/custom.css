@@ -56,14 +56,37 @@
   background-color: #4a8b7e;
 }
 
-/* Style spécifique pour le lien téléphone */
-table a[href^="tel:"] {
-  color: #5a9b8e;
+/* Style commun pour tous les liens du tableau */
+table a.contact-link {
+  color: #5a9b8e; /* Couleur verte Decabock */
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 500;
+  margin-right: 0.5rem;
 }
 
-/* Style pour le lien téléphone au survol */
-table a[href^="tel:"]:hover {
+/* Style au survol (hover) */
+table a.contact-link:hover {
   text-decoration: underline;
+  color: #4a8b7e; /* Couleur légèrement plus foncée */
+}
+
+/* Style pour les liens visités */
+table a.contact-link:visited {
+  color: #7a5a9b; /* Couleur violette pour indiquer que le lien a été visité */
+}
+
+/* Style pour les icônes */
+table i.fas,
+table i.fab {
+  margin-right: 0.5em;
+  color: #5a9b8e;
+  width: 20px;
+  text-align: center;
+}
+
+/* Style pour les horaires (optionnel) */
+table span {
+  color: #666;
+  font-size: 0.9em;
+  margin-left: 0.5rem;
 }
