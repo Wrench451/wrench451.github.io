@@ -5,6 +5,8 @@ main:
     url: /valeurs/
   - title: "Nos produits"
     url: /produits/
+  - title: "Nos designs"
+    url: /designs/
   - title: "Nous contacter"
     url: /nous-contacter/
   - title: "Actualités"

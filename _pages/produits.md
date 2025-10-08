@@ -8,7 +8,6 @@ author_profile: true
 Chez **Decabock**, nous allions **artisanat, personnalisation et durabilité** pour créer des objets uniques qui s’intègrent dans votre quotidien. Découvrez nos best-sellers et restez informés des futures nouveautés !
 
 ## 🌟 Nos Produits Phares
-
 ### 1️⃣ Decabock : Le dessous de verre intelligent
 
 <div class="carousel-container">
