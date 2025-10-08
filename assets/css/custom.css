@@ -274,6 +274,8 @@ table span {
   font-size: 1.2rem;
   text-align: center;
   word-break: break-word;
+  min-height: 100px;
+  align-content: center;
 }
 
 .design-id {
@@ -286,7 +288,6 @@ table span {
 /* Conteneur du carrousel pour les designs */
 .design-carousel-container {
   position: relative;
-  margin: 1rem 0;
   flex-grow: 1;
   display: flex;
   justify-content: center;
