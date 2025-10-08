@@ -262,28 +262,35 @@ table span {
   border-radius: 8px;
   padding: 1.5rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: center;
+  min-height: 400px; /* Hauteur minimale fixe */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Répartit l'espace verticalement */
 }
 
 .design-name {
   color: #5a9b8e;
-  margin-bottom: 0.5rem;
+  margin: 0.5rem;
   font-size: 1.2rem;
+  text-align: center;
+  word-break: break-word;
 }
 
 .design-id {
   color: #666;
   font-size: 0.9rem;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 /* Conteneur du carrousel pour les designs */
 .design-carousel-container {
   position: relative;
   margin: 1rem 0;
-  max-width: 100%;
-  overflow: hidden;
-  border-radius: 4px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .design-carousel {
@@ -345,6 +352,7 @@ table span {
   font-size: 0.9rem;
   margin-top: 1rem;
   font-style: italic;
+  text-align: center;
 }
 
 /* Responsive : 1 design par ligne sur mobile */
