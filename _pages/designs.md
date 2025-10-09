@@ -14,7 +14,6 @@ Découvrez tous nos **designs personnalisables** pour sublimer vos produits Deca
 
 <script>
   // Position initiale des carrousels
-  // Trigger 
   let currentSlide = {};
 
   // Fonction pour déplacer les slides
