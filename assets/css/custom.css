@@ -265,7 +265,7 @@ table span {
   min-height: 400px; /* Hauteur minimale fixe */
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Répartit l'espace verticalement */
+  justify-content: normal;
 }
 
 .design-name {
@@ -292,6 +292,7 @@ table span {
   display: flex;
   justify-content: center;
   align-items: center;
+  max-height: 200px;
 }
 
 .design-carousel {
