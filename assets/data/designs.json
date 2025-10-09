@@ -1,0 +1,38 @@
+[
+  {
+    "id": "DB-001",
+    "name": "Bientôt super tata & tonton",
+    "images": [
+      "/assets/images/designs/bientot_tata_tonton/Bientôt_super_tata_&_tonton.png",
+      "/assets/images/designs/defApero.jpg"
+    ],
+    "products": ["Bouchons de vin", "Decabock"]
+  },
+  {
+    "id": "DB-002",
+    "name": "C'est pas l'homme qui prends l'apéro",
+    "images": [
+      "/assets/images/designs/homme_prends_apero/C&apos;est l&apos;apéro qui prends l&apos;homme.png",
+      "/assets/images/designs/defApero.jpg"
+    ],
+    "products": ["Decabock"]
+  },
+  {
+    "id": "DB-003",
+    "name": "C'est pas Versailles ici",
+    "images": [
+      "/assets/images/designs/pas_versailles/C&apos;est pas versailles ici.png",
+      "/assets/images/designs/defApero.jpg"
+    ],
+    "products": ["Bouchons de vin", "Decabock"]
+  },
+  {
+    "id": "DB-004",
+    "name": "Family",
+    "images": [
+      "/assets/images/designs/family/Family_full.png",
+      "/assets/images/designs/defApero.jpg"
+    ],
+    "products": ["Bouchons de vin", "Decabock"]
+  }
+]
