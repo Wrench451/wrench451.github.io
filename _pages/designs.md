@@ -250,7 +250,7 @@ Découvrez tous nos **designs personnalisables** pour sublimer vos produits Deca
     carousel.querySelector('.design-carousel-inner').style.transform = `translateX(-${currentSlide[carouselId] * 100}%)`;
   }
 
-  / Fonction pour charger le fichier JSON
+  // Fonction pour charger le fichier JSON
   async function loadDesigns() {
     try {
       const response = await fetch('/assets/data/designs.json');
@@ -258,6 +258,7 @@ Découvrez tous nos **designs personnalisables** pour sublimer vos produits Deca
         throw new Error('Erreur lors du chargement des designs');
       }
       const designs = await response.json();
+      console.log(designs);
       generateDesignCards(designs);
     } catch (error) {
       console.error('Erreur:', error);
@@ -296,5 +297,5 @@ Découvrez tous nos **designs personnalisables** pour sublimer vos produits Deca
   }
 
   // Charger les designs au chargement de la page
-  document.addEventListener('DOMContentLoaded', loadDesigns);
+  document.addEventListener("DOMContentLoaded", loadDesigns);
 </script>
