@@ -125,7 +125,6 @@ Remplissez le formulaire ci-dessous pour nous envoyer un message. Nous vous rép
     const nom = document.getElementById("nom").value;
     const prenom = document.getElementById("prenom").value;
     const typeDemande = document.getElementById("type-demande").value;
-    const typeDemandeText = typeDemande.options[typeDemande.selectedIndex].text;
     const objet = document.getElementById("objet").value;
     const message = document.getElementById("message").value;
 
@@ -133,7 +132,7 @@ Remplissez le formulaire ci-dessous pour nous envoyer un message. Nous vous rép
     const subject = encodeURIComponent(`[Decabock] ${typeDemande} : ${objet}`);
     const body = encodeURIComponent(
       `Bonjour,\n\n` + 
-      `Je m'appelle ${prenom} ${nom} et je vous contacte concernant : ${typeDemandeText}.` + 
+      `Je m'appelle ${prenom} ${nom} et je vous contacte concernant : ${typeDemande}.` + 
       `\n\nObjet : ${objet}` + 
       `\n\nMessage : ${message}` + 
       `\n\nCordialement,` + 

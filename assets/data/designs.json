@@ -83,7 +83,16 @@
   },
   {
     "id": "DB-010",
-    "name": "La vie est trop courte pour boire du mauvais vin",
+    "name": "La vie est trop courte",
+    "images": [
+      "/assets/images/designs/vie_trop_courte/La vie est trop courte pour boire du mauvais vin.png",
+      "/assets/images/designs/defApero.jpg"
+    ],
+    "products": ["Decabock"]
+  },
+  {
+    "id": "DB-011",
+    "name": "Pour la meilleur maman du monde",
     "images": [
       "/assets/images/designs/vie_trop_courte/La vie est trop courte pour boire du mauvais vin.png",
       "/assets/images/designs/defApero.jpg"
