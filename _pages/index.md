@@ -17,13 +17,13 @@ Chez **Decabock**, nous donnons une seconde vie au bois en créant des objets un
   <div class="carousel" id="DB-carousel">
     <div class="carousel-inner">    
       <div class="carousel-slide">
-        <img src="/assets/images/decabock/DB_Aimanté_Twinning_Comitee_Linkded.jpeg" alt="Decabock - Décapsuleur" class="carousel-img">
+        <img src="/assets/images/produits/decabock/DB_Aimanté_Twinning_Comitee_Linkded.jpeg" alt="Decabock - Décapsuleur" class="carousel-img">
       </div>
       <div class="carousel-slide">
-        <img src="/assets/images/decabock/DB_Twinning_Comitee_Linkded.jpeg" alt="Decabock - Vue de face" class="carousel-img">
+        <img src="/assets/images/produits/decabock/DB_Twinning_Comitee_Linkded.jpeg" alt="Decabock - Vue de face" class="carousel-img">
       </div>
       <div class="carousel-slide">
-        <img src="/assets/images/decabock/DB_Support_Verso_Twinning_Comitee.jpeg" alt="Decabock - Gravure personnalisée" class="carousel-img">
+        <img src="/assets/images/produits/decabock/DB_Support_Verso_Twinning_Comitee.jpeg" alt="Decabock - Gravure personnalisée" class="carousel-img">
       </div>
     </div>
   </div>
