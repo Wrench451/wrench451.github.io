@@ -13,7 +13,7 @@ Chez **Decabock**, nous donnons une seconde vie au bois en créant des objets un
 {: .text-justify}
 
 <div class="carousel-container">
-  <button class="carousel-button prev" onclick="moveSlide(-1, 'carousel-1')">❮</button>
+  <button class="carousel-button prev" onclick="moveSlide(-1, 'DB-carousel')">❮</button>
   <div class="carousel" id="DB-carousel">
     <div class="carousel-inner">    
       <div class="carousel-slide">
@@ -27,7 +27,7 @@ Chez **Decabock**, nous donnons une seconde vie au bois en créant des objets un
       </div>
     </div>
   </div>
-  <button class="carousel-button next" onclick="moveSlide(1, 'carousel-1')">❯</button>
+  <button class="carousel-button next" onclick="moveSlide(1, 'DB-carousel')">❯</button>
 </div>
 
 ## Pourquoi choisir Decabock ? 🤔​
