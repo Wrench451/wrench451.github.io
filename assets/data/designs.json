@@ -245,7 +245,7 @@
   },
   {
     "id": "DB-028",
-    "name": "Qui aime le vin",
+    "name": "Qui aime le vin, aime la vie",
     "images": [
       "/assets/images/designs/qui_aime_vin_aime_vie/Aime le vin aime la vie.png",
       "/assets/images/designs/defApero.jpg"
@@ -254,12 +254,12 @@
   },
   {
     "id": "DB-029",
-    "name": "Boire un canon",
+    "name": "Boire un canon, c'est sauver un vigneron",
     "images": [
       "/assets/images/designs/boire_un_canon/Boir un canon c&apos;est sauver un vigneron.png",
       "/assets/images/designs/defApero.jpg"
     ],
-    "products": ["Bouchons de vin", "Decabock"]
+    "products": ["Decabock"]
   },
   {
     "id": "DB-030",
