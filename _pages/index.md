@@ -12,6 +12,24 @@ Chez **Decabock**, nous donnons une seconde vie au bois en créant des objets un
 **Un dessous de verre ingénieux**, doté d’un décapsuleur intégré et discret, entièrement personnalisable grâce à une gravure sur bois de haute précision. Que ce soit pour offrir un cadeau unique, sublimer une décoration ou simplement ajouter une touche d’élégance à votre intérieur, chaque pièce Decabock est une alliance parfaite entre **fonctionnalité, beauté et singularité**.
 {: .text-justify}
 
+<div class="carousel-container">
+  <button class="carousel-button prev" onclick="moveSlide(-1, 'carousel-1')">❮</button>
+  <div class="carousel" id="DB-carousel">
+    <div class="carousel-inner">    
+      <div class="carousel-slide">
+        <img src="/assets/images/decabock/DB_Aimanté_Twinning_Comitee_Linkded.jpeg" alt="Decabock - Décapsuleur" class="carousel-img">
+      </div>
+      <div class="carousel-slide">
+        <img src="/assets/images/decabock/DB_Twinning_Comitee_Linkded.jpeg" alt="Decabock - Vue de face" class="carousel-img">
+      </div>
+      <div class="carousel-slide">
+        <img src="/assets/images/decabock/DB_Support_Verso_Twinning_Comitee.jpeg" alt="Decabock - Gravure personnalisée" class="carousel-img">
+      </div>
+    </div>
+  </div>
+  <button class="carousel-button next" onclick="moveSlide(1, 'carousel-1')">❯</button>
+</div>
+
 ## Pourquoi choisir Decabock ? 🤔​
 
 - **Artisanat 100% français** 🏡 : Des créations fabriquées localement, avec des matériaux nobles et sélectionnés pour leur durabilité.
@@ -30,3 +48,29 @@ Vous partagez nos valeurs ? Vous avez envie de soutenir un artisanat **local, é
 
 Chez Decabock, chaque objet raconte une histoire. **Et si la prochaine était la vôtre ?**
 
+<script>
+    // Position initiale des carrousels
+  let currentSlide = {
+    'DB-carousel': 0
+  };
+
+  // Fonction pour déplacer les slides
+  function moveSlide(step, carouselId) {
+    const carousel = document.getElementById(carouselId);
+    const slides = carousel.querySelectorAll('.carousel-slide');
+    const totalSlides = slides.length;
+
+    // Mise à jour de la position actuelle
+    currentSlide[carouselId] += step;
+
+    // Gestion des limites
+    if (currentSlide[carouselId] < 0) {
+      currentSlide[carouselId] = totalSlides - 1;
+    } else if (currentSlide[carouselId] >= totalSlides) {
+      currentSlide[carouselId] = 0;
+    }
+
+    // Déplacement du carrousel
+    carousel.querySelector('.carousel-inner').style.transform = `translateX(-${currentSlide[carouselId] * 100}%)`;
+  }
+</script>
