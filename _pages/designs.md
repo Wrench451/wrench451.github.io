@@ -6,7 +6,16 @@ permalink: /designs/
 
 Découvrez tous nos **designs personnalisables** pour sublimer vos produits Decabock. Chaque design est disponible sur un ou plusieurs produits.
 
-## **Nos Créations personnelles**
+## Nos Créations personnelles
+
+### Filtrer par produit
+<div class="filter-container">
+  <button class="filter-button active" data-filter="all">Tous</button>
+  <button class="filter-button" data-filter="Decabock">Decabock</button>
+  <button class="filter-button" data-filter="Bouchons de vin">Bouchons de vin</button>
+  <!-- <button class="filter-button" data-filter="Planche à découper">Planche à découper</button>
+  <button class="filter-button" data-filter="Porte-clés">Porte-clés</button> -->
+</div>
 
 <div class="designs-grid">
 
@@ -15,13 +24,15 @@ Découvrez tous nos **designs personnalisables** pour sublimer vos produits Deca
 <script>
   // Position initiale des carrousels
   let currentSlide = {};
+  let allDesigns = []; // Stocke tous les designs
+  let activeFilters = new Set(); // Stocke les filtres actifs
 
   // Fonction pour déplacer les slides
   function moveSlide(step, carouselId) {
     if (!currentSlide[carouselId]) {
       currentSlide[carouselId] = 0;
     }
-
+    
     const carousel = document.getElementById(carouselId);
     const slides = carousel.querySelectorAll('.design-carousel-slide');
     const totalSlides = slides.length;
@@ -40,26 +51,31 @@ Découvrez tous nos **designs personnalisables** pour sublimer vos produits Deca
     carousel.querySelector('.design-carousel-inner').style.transform = `translateX(-${currentSlide[carouselId] * 100}%)`;
   }
 
-  // Fonction pour charger le fichier JSON
-  async function loadDesigns() {
-    try {
-      const response = await fetch('/assets/data/designs.json');
-      if (!response.ok) {
-        throw new Error('Erreur lors du chargement des designs');
-      }
-      const designs = await response.json();
-      console.log(designs);
-      generateDesignCards(designs);
-    } catch (error) {
-      console.error('Erreur:', error);
-    }
-  }
-
-  // Fonction pour générer les cartes de designs
-  function generateDesignCards(designs) {
+  // Fonction pour filtrer les designs
+  function filterDesigns() {
     const designsGrid = document.querySelector('.designs-grid');
+    designsGrid.innerHTML = ''; // Vide la grille
 
-    designs.forEach((design) => {
+    let filteredDesigns = allDesigns;
+
+    // Si aucun filtre n'est actif ou si "Tous" est sélectionné
+    if (activeFilters.size === 0 || activeFilters.has('all')) {
+      filteredDesigns = allDesigns;
+    } else {
+      // Filtrer les designs qui correspondent à tous les filtres actifs
+      filteredDesigns = allDesigns.filter(design =>
+        Array.from(activeFilters).every(filter =>
+          design.products.includes(filter)
+        )
+      );
+    }
+
+    if (filteredDesigns.length === 0) {
+      designsGrid.innerHTML = '<p class="no-results">Aucun design disponible pour ces produits.</p>';
+      return;
+    }
+
+    filteredDesigns.forEach((design) => {
       const designCard = document.createElement('div');
       designCard.className = 'design-card';
       designCard.innerHTML = `
@@ -86,6 +102,59 @@ Découvrez tous nos **designs personnalisables** pour sublimer vos produits Deca
     });
   }
 
+  // Fonction pour charger le fichier JSON
+  async function loadDesigns() {
+    try {
+      const response = await fetch('/assets/data/designs.json');
+      if (!response.ok) {
+        throw new Error('Erreur lors du chargement des designs');
+      }
+      allDesigns = await response.json();
+      filterDesigns(); // Affiche tous les designs au chargement
+    } catch (error) {
+      console.error('Erreur:', error);
+    }
+  }
+
   // Charger les designs au chargement de la page
-  document.addEventListener("DOMContentLoaded", loadDesigns);
+  document.addEventListener("DOMContentLoaded", () => {
+    loadDesigns();
+
+    // Ajouter les écouteurs d'événements aux boutons de filtrage
+    document.querySelectorAll('.filter-button').forEach(button => {
+      button.addEventListener('click', () => {
+        // Si le bouton "Tous" est cliqué
+        if (button.dataset.filter === 'all') {
+          // Réinitialiser les filtres
+          activeFilters.clear();
+          document.querySelectorAll('.filter-button').forEach(btn => btn.classList.remove('active'));
+          button.classList.add('active');
+          filterDesigns();
+          return;
+        }
+
+        // Basculer l'état actif du bouton
+        button.classList.toggle('active');
+
+        // Si le bouton est actif, ajouter le filtre
+        if (button.classList.contains('active')) {
+          activeFilters.add(button.dataset.filter);
+        } else {
+          // Sinon, retirer le filtre
+          activeFilters.delete(button.dataset.filter);
+        }
+
+        // Si aucun filtre n'est actif, réactiver "Tous"
+        if (activeFilters.size === 0) {
+          document.querySelector('.filter-button[data-filter="all"]').classList.add('active');
+        } else {
+          // Désactiver "Tous" si d'autres filtres sont actifs
+          document.querySelector('.filter-button[data-filter="all"]').classList.remove('active');
+        }
+
+        // Appliquer les filtres
+        filterDesigns();
+      });
+    });
+  });
 </script>
