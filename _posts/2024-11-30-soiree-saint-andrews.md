@@ -31,6 +31,7 @@ L'association nous avait commandé :
 - **80 lots de sous-bock** pour leur traditionnelle **tambola annuelle**
 
 📊 **Résultats des ventes** :
+
 | Produit                | Quantité vendue |
 |:----------------------:|:---------------:|
 | Decabock personnalisée | 42/50           |
