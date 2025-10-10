@@ -115,7 +115,7 @@ Découvrez en avant-première nos **prochains produits** que nous avons prépare
         </div>
       </div>
     </div>
-    <img class="coming-soon-image" src="/assets/images/coming-soon/planche_a_decouper.png"/>
+    <img class="coming-soon-image" src="/assets/images/produits/coming-soon/planche_a_decouper.png"/>
   </div>
 </div>
 
@@ -137,7 +137,7 @@ Découvrez en avant-première nos **prochains produits** que nous avons prépare
         </div>
       </div>
     </div>
-    <img class="coming-soon-image" src="/assets/images/coming-soon/porte_cles.png"/>
+    <img class="coming-soon-image" src="/assets/images/produits/coming-soon/porte_cles.png"/>
   </div>
 </div>
 
