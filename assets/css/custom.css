@@ -247,7 +247,7 @@ table span {
 }
 /*#endregion ------ Style pour la page des produits ------ */
 
-/*region ------ Style pour la page des designs ------ */
+/*#region ------ Style pour la page des designs ------ */
 
 /* Grille des designs (2 par ligne) */
 .designs-grid {
@@ -408,3 +408,45 @@ table span {
 }
 
 /*#endregion ------ Style pour la page des designs ------ */
+
+/*#region ------ Style pour la page des posts ------ */
+
+/* Galerie d'images pour les événements */
+.event-gallery {
+  margin: 2rem 0;
+}
+
+.gallery-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+}
+
+.event-photo {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.event-photo:hover {
+  transform: scale(1.02);
+}
+
+/* Responsive pour la galerie */
+@media (max-width: 768px) {
+  .gallery-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .event-photo {
+    max-width: 100%;
+  }
+}
+
+/*#endregion ------ Style pour la page des posts ------ */

@@ -15,13 +15,13 @@ Chez **Decabock**, nous allions **artisanat, personnalisation et durabilité** p
   <div class="carousel" id="carousel-1">
     <div class="carousel-inner">
       <div class="carousel-slide">
-        <img src="/assets/images/decabock/DB_Twinning_Comitee_Linkded.jpeg" alt="Decabock - Vue de face" class="carousel-img">
+        <img src="/assets/images/produits/decabock/DB_Twinning_Comitee_Linkded.jpeg" alt="Decabock - Vue de face" class="carousel-img">
       </div>
       <div class="carousel-slide">
-        <img src="/assets/images/decabock/DB_Aimanté_Twinning_Comitee_Linkded.jpeg" alt="Decabock - Décapsuleur" class="carousel-img">
+        <img src="/assets/images/produits/decabock/DB_Aimanté_Twinning_Comitee_Linkded.jpeg" alt="Decabock - Décapsuleur" class="carousel-img">
       </div>
       <div class="carousel-slide">
-        <img src="/assets/images/decabock/DB_Support_Verso_Twinning_Comitee.jpeg" alt="Decabock - Gravure personnalisée" class="carousel-img">
+        <img src="/assets/images/produits/decabock/DB_Support_Verso_Twinning_Comitee.jpeg" alt="Decabock - Gravure personnalisée" class="carousel-img">
       </div>
     </div>
   </div>
@@ -41,10 +41,10 @@ Chez **Decabock**, nous allions **artisanat, personnalisation et durabilité** p
   <div class="carousel" id="carousel-2">
     <div class="carousel-inner">
       <div class="carousel-slide">
-        <img src="/assets/images/bouchons/bouchon_debout_jppja.jpg" alt="Bouchon en chêne" class="carousel-img">
+        <img src="/assets/images/produits/bouchons/bouchon_debout_jppja.jpg" alt="Bouchon en chêne" class="carousel-img">
       </div>
       <div class="carousel-slide">
-        <img src="/assets/images/bouchons/bouchon_haut_Family.jpg" alt="Bouchon gravé" class="carousel-img">
+        <img src="/assets/images/produits/bouchons/bouchon_haut_Family.jpg" alt="Bouchon gravé" class="carousel-img">
       </div>
     </div>
   </div>
