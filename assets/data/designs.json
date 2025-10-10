@@ -404,5 +404,15 @@
       "/assets/images/designs/defApero.jpg"
     ],
     "products": ["Bouchons de vin", "Decabock"]
+  },
+  {
+    "id": "DB-046",
+    "name": "Vendredi c'est apéro avec les voisins",
+    "images": [
+      "/assets/images/designs/vendredi_c_est_apero_avec_les_voisins/Vendredi_c'est_apéro_avec_les_voisins-Design.png",
+      "/assets/images/designs/vendredi_c_est_apero_avec_les_voisins/Vendredi_c'est_apéro_avec_les_voisins-Bouchon.png",
+      "/assets/images/designs/vendredi_c_est_apero_avec_les_voisins/Vendredi_c'est_apéro_avec_les_voisins-DB.png"
+    ],
+    "products": ["Bouchons de vin", "Decabock"]
   }
 ]

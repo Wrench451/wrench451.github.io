@@ -6,8 +6,7 @@ permalink: /designs/
 
 Découvrez tous nos **designs personnalisables** pour sublimer vos produits Decabock. Chaque design est disponible sur un ou plusieurs produits.
 
-## Nos Créations personnelles
-
+## Nos Créations personnelles <span id="design-count">(0) designs dispobiles</span>
 ### Filtrer par produit
 <div class="filter-container">
   <button class="filter-button active" data-filter="all">Tous</button>
@@ -69,6 +68,9 @@ Découvrez tous nos **designs personnalisables** pour sublimer vos produits Deca
         )
       );
     }
+
+    // Mettre à jour le compteur de designs
+    document.getElementById('design-count').textContent = `(${filteredDesigns.length})`;
 
     if (filteredDesigns.length === 0) {
       designsGrid.innerHTML = '<p class="no-results">Aucun design disponible pour ces produits.</p>';

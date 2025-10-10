@@ -364,6 +364,12 @@ table span {
   }
 }
 
+#design-count {
+  font-size: 1rem;
+  color: #666;
+  font-weight: normal;
+}
+
 /* Conteneur des filtres */
 .filter-container {
   display: flex;
