@@ -21,21 +21,19 @@ excerpt: "Retour sur notre première participation au marché de Noël de Groupa
 Pour cette première expérience en entreprise, nous avons proposé :
 - **Une sélection de nos Decabock personnalisés** avec des motifs festifs (sapins, flocons, etc.)
 - **Un service de personnalisation sur commande** pour des cadeaux uniques
-- **Une démonstration de nos produits phares** :
-  - Sous-verres intelligents avec décapsuleur intégré
-  - Bouchons de vin personnalisables
-  - Porte-clés en bois gravés
+- **Une démonstration de notre produit phare** : Le sous-verres intelligents avec décapsuleur intégré
 
 > *"Une journée enrichissante qui nous a permis de faire découvrir notre univers artisanal à un public professionnel en quête de cadeaux originaux !"*
 
 ## Notre collaboration avec Groupama 🤝
 
-L'entreprise nous a réservé un accueil chaleureux et nous a offert :
+L'entreprise nous a réservé un accueil chaleureux et nous a offert durant cet événement: 
 - **Un espace dédié** dans leur hall d'accueil
 - **Une communication interne** pour promouvoir notre présence
 - **Un accès privilégié** à leurs 300 collaborateurs
 
 📊 **Bilan de la journée** :
+
 | Produit                | Quantité vendue | Commandes prises |
 |:----------------------:|:---------------:|:-----------------:|
 | Decabock personnalisées | 45              | 12               |
@@ -45,7 +43,6 @@ L'entreprise nous a réservé un accueil chaleureux et nous a offert :
 
 L'événement a réuni les collaborateurs autour :
 - **D'un marché artisanal** avec une dizaine d'exposants locaux
-- **D'animations musicales** pour une ambiance festive
 - **D'un espace photo** avec des accessoires de Noël
 - **D'une dégustation** de boissons chaudes et de spécialités de fête
 
