@@ -88,4 +88,5 @@ Un grand merci à :
 **Vous souhaitez organiser un événement avec nos produits personnalisés ?**
 [Contactez-nous →]({{ '/nous-contacter/' | relative_url }})
 
+---
 *Crédit photos : Équipe Decabock et Twinning Committee - Soirée Saint-Andrews 2024*
