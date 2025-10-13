@@ -15,13 +15,28 @@ Chez **Decabock**, nous allions **artisanat, personnalisation et durabilité** p
   <div class="carousel" id="carousel-1">
     <div class="carousel-inner">
       <div class="carousel-slide">
+        <img src="/assets/images/produits/decabock/DB_Aimanté_Twinning_Comitee_Linkded.jpeg" alt="Decabock - Décapsuleur" class="carousel-img">
+      </div>   
+      <div class="carousel-slide">
         <img src="/assets/images/produits/decabock/DB_Twinning_Comitee_Linkded.jpeg" alt="Decabock - Vue de face" class="carousel-img">
       </div>
       <div class="carousel-slide">
-        <img src="/assets/images/produits/decabock/DB_Aimanté_Twinning_Comitee_Linkded.jpeg" alt="Decabock - Décapsuleur" class="carousel-img">
+        <img src="/assets/images/produits/decabock/DB_Support_Verso_Twinning_Comitee.jpeg" alt="Decabock - Gravure personnalisée" class="carousel-img">
+      </div> 
+      <div class="carousel-slide">
+        <img src="/assets/images/produits/decabock/DB_iiclr_eventail.jpg" alt="Decabock Ici c'est la Rochelle - Eventail" class="carousel-img">
       </div>
       <div class="carousel-slide">
-        <img src="/assets/images/produits/decabock/DB_Support_Verso_Twinning_Comitee.jpeg" alt="Decabock - Gravure personnalisée" class="carousel-img">
+        <img src="/assets/images/produits/decabock/DB_iiclr_pile_face.jpg" alt="Decabock Ici c'est la Rochelle - Gravure" class="carousel-img">
+      </div>
+      <div class="carousel-slide">
+        <img src="/assets/images/produits/decabock/DB_iiclr_pile_dos.jpg" alt="Decabock Ici c'est la Rochelle - Décapsuleur" class="carousel-img">
+      </div>
+      <div class="carousel-slide">
+        <img src="/assets/images/produits/decabock/Definition_apéro.png" alt="Decabock - Définition de l'apéro" class="carousel-img">
+      </div>
+      <div class="carousel-slide">
+        <img src="/assets/images/produits/decabock/J&apos;peux_pas_j&apos;ai_apéro.png" alt="Decabock - J'peux pas j'ai apéro" class="carousel-img">
       </div>
     </div>
   </div>
@@ -31,7 +46,7 @@ Chez **Decabock**, nous allions **artisanat, personnalisation et durabilité** p
 | **Détails** | **Informations** |
 |:-----------:|------------------|
 | **Description** | Un dessous de verre élégant avec un **décapsuleur intégré** et une **gravure personnalisable**. Idéal pour les apéros, cadeaux ou décoration. |
-| **Personnalisation** | + de 50 motifs disponibles et des gravures de texte personnalisé (nom, message, logo) |
+| **Personnalisation** | + de 45 motifs disponibles et des gravures de texte personnalisé (nom, message, logo) |
 | **Prix**            | 4,90 € (l'unité) / 17,90€ (lot de 4) - (Livraison possible en France métropolitaine) |
 
 ### 2️⃣ Bouchons de vin en bois
@@ -54,7 +69,7 @@ Chez **Decabock**, nous allions **artisanat, personnalisation et durabilité** p
 | **Détails**          | **Informations** |
 |:--------------------:|------------------|
 | **Description**      | Des bouchons en bois **écologiques et réutilisables**, parfaits pour conserver vos bouteilles ouvertes. Disponibles en chêne ou hêtre. |
-| **Personnalisation** | + de 45 motifs disponibles et des gravures de texte personnalisé (nom, message, logo) |
+| **Personnalisation** | + de 25 motifs disponibles et des gravures de texte personnalisé (nom, message, logo) |
 | **Prix**            | 2,90 € (l'unité) / 9,90 € (lot de 4) - (Livraison possible en France métropolitaine) |
 
 <!-- ### 3️⃣ Planche à découper personnalisée
