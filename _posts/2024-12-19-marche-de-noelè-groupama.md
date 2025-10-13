@@ -27,7 +27,7 @@ Pour cette première expérience en entreprise, nous avons proposé :
 
 ## Notre collaboration avec Groupama 🤝
 
-L'entreprise nous a réservé un accueil chaleureux et nous a offert durant cet événement: 
+L'entreprise nous a réservé un accueil chaleureux et nous a offert durant cet événement : 
 - **Un espace dédié** dans leur hall d'accueil
 - **Une communication interne** pour promouvoir notre présence
 - **Un accès privilégié** à leurs 300 collaborateurs
