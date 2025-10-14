@@ -1,3 +1,5 @@
+# Site web statique de l'entreprise Decabock
+
 Chez **Decabock**, nous donnons une seconde vie au bois en créant des objets uniques, où l’esthétique rencontre l’utilité et la personnalisation. Spécialisés dans la fabrication artisanale d’objets en bois, nous mettons notre passion et notre savoir-faire au service de créations durables, conçues pour vous accompagner au quotidien.
 
 ## Notre produit emblématique ? 
