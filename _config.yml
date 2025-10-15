@@ -13,15 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Decabock
-subtitle: Quand l'artisanat se fait inventif et personnel
-email: pcarteron.decabock@gmail.com
+title: Pierre Carteron
+subtitle: Portfolio
+email: pierre.carteron37@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Ensemble, faisons du bois un support d’expression et d’utilité qui transforme les petites choses du quotidien en expériences mémorables.
-instagram_username: decabock_fr
-facebook:
-  app_id: 61569670629084
-linkedin_username: decabock
+  Alternant en 3ème année au CESI école d'ingénieur de La Rochelle et chez Euro-information en tant que Analyste développeur.
+linkedin_username: Pierre Carteron
 minimal_mistakes_skin: default
 search: true
 
@@ -59,22 +56,16 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Decabock"
-  avatar : "/assets/images/logo.png"
-  bio    : "Ensemble, faisons du bois un support d’expression et d’utilité qui transforme les petites choses du quotidien en expériences mémorables."
+  name   : "Pierre Carteron"
+  avatar : "/assets/images/photo_profile.png"
+  bio    : "Alternant en 3ème année au CESI école d'ingénieur de La Rochelle et chez Euro-information en tant que Analyste développeur."
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:pcarteron.decabock@gmail.com"
+      url: "mailto:pierre.carteron37@gmail.com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/company/decabock"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/decabock_fr/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook"
-      url: "https://www.facebook.com/profile.php?id=61569670629084"
+      url: "https://www.linkedin.com/in/pierre-carteron-173842212/"
 
 footer:
   links:
@@ -83,13 +74,7 @@ footer:
       url: "mailto:pcarteron.decabock@gmail.com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/company/decabock"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/decabock_fr/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook"
-      url: "https://www.facebook.com/profile.php?id=61569670629084"
+      url: "https://www.linkedin.com/in/pierre-carteron-173842212/"
 
 defaults:
   # _posts
@@ -103,8 +88,6 @@ defaults:
       comments: true
       share: true
       related: true
-      icon: "/assets/images/favicon-32x32.png"
-      apple_touch_icon: "/assets/images/apple-icon-180x180.png"
   # _pages
   - scope:
       path: "_pages"
@@ -112,8 +95,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      icon: "/assets/images/favicon-32x32.png"
-      apple_touch_icon: "/assets/images/apple-icon-180x180.png"
 
 category_archive:
   type: liquid
