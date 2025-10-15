@@ -57,7 +57,7 @@ plugins:
 
 author:
   name   : "Pierre Carteron"
-  avatar : "/assets/images/photo_profile.png"
+  avatar : "assets/images/photo_profile.jpeg"
   bio    : "Alternant en 3ème année au CESI école d'ingénieur de La Rochelle et chez Euro-information en tant que Analyste développeur."
   links:
     - label: "Email"
