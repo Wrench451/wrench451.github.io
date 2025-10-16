@@ -45,56 +45,64 @@ Pour découvrir **mon parcours professionnel complet**, [clique ici](parcours-pr
 ### Compétences techniques
 
 <div class="skills-container">
-  <div class="skill-item">
-    <div class="skill-chart" data-percent="85">
-      <div class="skill-percent">85%</div>
+  <div class="progress">
+    <div class="barOverflow">
+      <div class="bar" style="--r : 85"></div>
     </div>
+    <span>85</span>%
     <p>Développement Web</p>
   </div>
-  <div class="skill-item">
-    <div class="skill-chart" data-percent="80">
-      <div class="skill-percent">80%</div>
+  <div class="progress">
+    <div class="barOverflow">
+      <div class="bar" style="--r : 70"></div>
     </div>
+    <span>70</span>%
     <p>Python</p>
   </div>
-  <div class="skill-item">
-    <div class="skill-chart" data-percent="75">
-      <div class="skill-percent">75%</div>
+  <div class="progress">
+    <div class="barOverflow">
+      <div class="bar" style="--r : 75"></div>
     </div>
+    <span>75</span>%
     <p>Base de données</p>
   </div>
-  <div class="skill-item">
-    <div class="skill-chart" data-percent="70">
-      <div class="skill-percent">70%</div>
+  <div class="progress">
+    <div class="barOverflow">
+      <div class="bar" style="--r : 95"></div>
     </div>
-    <p>DevOps</p>
+    <span>95</span>%
+    <p>Anglais</p>
   </div>
 </div>
 
 ### Soft Skills
 <div class="skills-container">
-  <div class="skill-item">
-    <div class="skill-chart" data-percent="90">
-      <div class="skill-percent">90%</div>
+  <div class="progress">
+    <div class="barOverflow">
+      <div class="bar" style="--r : 90"></div>
     </div>
-    <p>Travail d’équipe</p>
+    <span>90</span>%
+    <p>Travail d'équipe</p>
   </div>
-  <div class="skill-item">
-    <div class="skill-chart" data-percent="95">
-      <div class="skill-percent">95%</div>
+  <div class="progress">
+    <div class="barOverflow">
+      <div class="bar" style="--r : 95"></div>
     </div>
+    <span>95</span>%
     <p>Résolution de problèmes</p>
   </div>
-  <div class="skill-item">
-    <div class="skill-chart" data-percent="85">
-      <div class="skill-percent">85%</div>
+  <div class="progress">
+    <div class="barOverflow">
+      <div class="bar" style="--r : 85"></div>
     </div>
+    <span>85</span>%
     <p>Adaptabilité</p>
   </div>
-  <div class="skill-item">
-    <div class="skill-chart" data-percent="80">
-      <div class="skill-percent">80%</div>
+  <div class="progress">
+    <div class="barOverflow">
+      <div class="bar" style="--r : 80"></div>
     </div>
+    <span>80</span>%
     <p>Créativité</p>
   </div>
 </div>

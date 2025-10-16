@@ -57,73 +57,34 @@
   margin: 20px 0;
 }
 
-/* Chaque compétence */
-.skill-item {
+.progress{
+  position: relative;
+  margin: 4px;
+  float:left;
   text-align: center;
-  margin: 15px;
-  width: 120px; /* Largeur fixe pour uniformité */
+  align-self: center;
+  width: 150px;
 }
 
-/* Conteneur du demi-cercle */
-.skill-chart {
+.barOverflow{ /* Wraps the rotating .bar */
   position: relative;
-  width: 100px;
-  height: 50px; /* Moitié d'un cercle */
-  margin: 0 auto 10px;
-  overflow: hidden;
+  overflow: hidden; /* Comment this line to understand the trick */
+  width: 90px; 
+  height: 45px; /* Half circle (overflow) */
+  margin: 0 auto -14px auto; /* bring the numbers up */
 }
 
-/* Demi-cercle de fond (gris clair) */
-.skill-chart::before {
-  content: '';
+.bar{
   position: absolute;
-  width: 100px;
-  height: 100px; /* Cadre carré pour le cercle */
-  border: 8px solid #f1f1f1; /* Bordure grise */
+  top: 0; 
+  left: 0;
+  width: 90px; 
+  height: 90px; /* full circle! */
   border-radius: 50%;
   box-sizing: border-box;
-  transform: rotate(-90deg); /* Rotation pour commencer en bas */
-  border-bottom: none;
-  border-left: none;
-  top: 50%;
-  left: 50%;
-  transform-origin: center;
-  transform: translate(-50%, -50%) rotate(-90deg);
+  border: 5px solid #eee;     /* half gray, */
+  border-bottom-color: #4CAF50;  /* half azure */
+  border-right-color: #4CAF50;
+  transform: rotate(calc(45deg + (1.8deg * var(--r))));
 }
-
-/* Arc de progression (rempli) */
-.skill-chart::after {
-  content: '';
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  border: 8px solid #4CAF50; /* Couleur de progression */
-  border-radius: 50%;
-  box-sizing: border-box;
-  transform: rotate(-90deg);
-  border-bottom: none;
-  border-left: none;
-  top: 50%;
-  left: 50%;
-  transform-origin: center;
-  transform: translate(-50%, -50%) rotate(calc(var(--progress-end) - 90deg));
-  z-index: 1;
-}
-
-/* Pourcentage affiché sous le demi-cercle */
-.skill-percent {
-  position: relative;
-  top: 50px; /* Positionne sous le demi-cercle */
-  font-size: 14px;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-/* Définition des variables pour chaque pourcentage */
-.skill-chart[data-percent="85"] { --progress-end: calc(85 * 1.8deg); --progress-color: #2196F3; }
-.skill-chart[data-percent="80"] { --progress-end: calc(80 * 1.8deg); --progress-color: #2196F3; }
-.skill-chart[data-percent="75"] { --progress-end: calc(75 * 1.8deg); --progress-color: #2196F3; }
-.skill-chart[data-percent="70"] { --progress-end: calc(70 * 1.8deg); --progress-color: #2196F3; }
-.skill-chart[data-percent="90"] { --progress-end: calc(90 * 1.8deg); --progress-color: #2196F3; }
-.skill-chart[data-percent="95"] { --progress-end: calc(95 * 1.8deg); --progress-color: #2196F3; }
-
+  
