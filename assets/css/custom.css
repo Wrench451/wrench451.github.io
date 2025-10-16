@@ -5,43 +5,36 @@
   margin: 0 auto;
   padding: 20px 0;
 }
-.timeline::before {
-  content: '';
-  position: absolute;
-  width: 2px;
-  background: #ccc;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-}
+
 .timeline-item {
   padding: 10px 40px;
   position: relative;
   width: 50%;
 }
-.timeline-item::after {
-  content: '';
-  position: absolute;
-  width: 12px;
-  height: 12px;
-  background: #4CAF50;
-  border-radius: 50%;
-  top: 15px;
-  left: 50%;
-  z-index: 1;
-}
+
 .timeline-date {
   font-weight: bold;
   margin-bottom: 10px;
 }
+
 .timeline-content {
-  background: #f9f9f9;
+  background: #e9e9e9;
   padding: 15px;
-  border-radius: 5px;
+  border-radius: 15px;
 }
+
+.timeline-content h3 {
+  margin-top: 0;
+}
+
 .timeline-item:nth-child(odd) {
   left: 0;
 }
+
+.timeline-item:nth-child(odd) .timeline-date {
+  text-align: right;
+}
+
 .timeline-item:nth-child(even) {
   left: 50%;
 }

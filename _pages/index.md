@@ -5,9 +5,9 @@ title: Qui suis-je ? 💻​
 ---
 
 Je m’appelle **Pierre Carteron**, j’ai 21 ans (né le 22 décembre 2003) et je suis actuellement en alternance au **CESI École d’Ingénieurs** à La Rochelle, tout en travaillant chez **Euro-Information** à Orléans en tant que analyste développeur.
+{: .text-justify}
 Passionné par l’informatique depuis le collège, je suis curieux depuis tout petit. J’aime **apprendre**, **découvrir** et **explorer** tout système, simple comme complexe.
-
----
+{: .text-justify}
 
 ## Mon parcours professionnel récent
 
@@ -36,8 +36,6 @@ Passionné par l’informatique depuis le collège, je suis curieux depuis tout 
 </div>
 
 Pour découvrir **mon parcours professionnel complet**, [clique ici](parcours-professionnel).
-
----
 
 ## Mes compétences et soft skills
 
@@ -98,8 +96,6 @@ Pour découvrir **mon parcours professionnel complet**, [clique ici](parcours-pr
 </div>
 
 Pour voir la **liste complète de mes compétences**, [clique ici](competences).
-
----
 
 ## Mes 3 derniers projets
 
