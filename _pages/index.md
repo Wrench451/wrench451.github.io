@@ -13,24 +13,27 @@ Passionné par l’informatique depuis le collège, je suis curieux depuis tout 
 
 <div class="timeline">
   <div class="timeline-item">
-    <div class="timeline-date">2023 - Présent</div>
+    <div class="timeline-date">Octobre 2023 - Présent</div>
     <div class="timeline-content">
-      <h3>Alternant Développeur - Euro-Information, Orléans</h3>
-      <p>Développement d’outils internes, automatisation de processus, et participation à des projets DevOps.</p>
+      <h3>Alternant - Analyste développeur</h3>
+      <h2>Euro-Information, Orléans</h2>
+      <p>Développement et refonte d'applications internes transversales, gestion de projets et suivi de déploiement d’outils internes.</p>
     </div>
   </div>
   <div class="timeline-item">
-    <div class="timeline-date">2022 - 2023</div>
+    <div class="timeline-date">Janvier 2023 - Présent</div>
     <div class="timeline-content">
-      <h3>Stagiaire Développeur Web - Startup X, Paris</h3>
-      <p>Création d’une application web pour la gestion de clients, utilisant React et Node.js.</p>
+      <h3>Indépendant - Fondateur et dirigeant</h3>
+      <h2>Decabock, Chancay</h2>
+      <p>Création et vente d'objets uniques en donnant une seconde vie au bois en alliant esthétisme et utilité.</p>
     </div>
   </div>
   <div class="timeline-item">
-    <div class="timeline-date">2021 - 2022</div>
+    <div class="timeline-date">Avril 2025 - Août 2025</div>
     <div class="timeline-content">
-      <h3>Étudiant en Informatique - CESI, La Rochelle</h3>
-      <p>Formation en développement logiciel, bases de données et gestion de projet.</p>
+      <h3>Stagiaire - Analyste développeur</h3>      
+      <h2>Euro-Information, Orléans</h2>
+      <p>Développement de maintenances évolutives et correctives d'applications internes transversales, gestion de projets et suivi de déploiement d’outils internes.</p>
     </div>
   </div>
 </div>
@@ -40,6 +43,7 @@ Pour découvrir **mon parcours professionnel complet**, [clique ici](parcours-pr
 ## Mes compétences et soft skills
 
 ### Compétences techniques
+
 <div class="skills-container">
   <div class="skill-item">
     <div class="skill-chart" data-percent="85">
