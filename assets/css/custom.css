@@ -1,452 +1,97 @@
-/*#region ------ Style pour le formulaire de contact ------ */
-
-/* Style pour le formulaire de contact */
-.contact-form {
-  max-width: 600px;
-  margin: 0 auto;
-  font-family: Arial, sans-serif;
-  font-size: 0.9em;
-}
-
-/* Style pour les groupes de formulaire */
-.form-group {
-  margin-bottom: 1.5rem;
-}
-
-/* Style pour les labels */
-.form-control {
-  width: 100%;
-  padding: 0.75rem;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  font-size: 0.9em;
-}
-
-/* Style pour les labels */
-.form-group label {
-  display: block;
-  margin-bottom: 0.3rem;
-  font-weight: 500;
-  font-size: 0.95em;
-}
-
-/* Style pour les astérisques obligatoires */
-.required-star {
-  color: #ff0000; /* Rouge */
-  font-weight: bold;
-  font-size: 1em;
-}
-
-/* Style pour la légende des champs obligatoires */
-.required-legend {
-  color: #666;
-  font-size: 0.85em;
-  margin-bottom: 1rem;
-  font-style: italic;
-}
-
-/* Style pour le bouton de soumission */
-.btn-submit {
-  background-color: #5a9b8e; /* Couleur verte Decabock */
-  color: white;
-  padding: 0.5rem 1rem;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 0.95em;
-}
-
-/* Style pour le bouton au survol */
-.btn-submit\:hover {
-  background-color: #4a8b7e;
-}
-
-/* Style commun pour tous les liens du tableau */
-table a.contact-link {
-  color: #5a9b8e; /* Couleur verte Decabock */
-  text-decoration: none;
-  font-weight: 500;
-  margin-right: 0.5rem;
-}
-
-/* Style au survol (hover) */
-table a.contact-link:hover {
-  text-decoration: underline;
-  color: #4a8b7e; /* Couleur légèrement plus foncée */
-}
-
-/* Style pour les liens visités */
-table a.contact-link:visited {
-  color: #7a5a9b; /* Couleur violette pour indiquer que le lien a été visité */
-}
-
-/* Style pour les icônes */
-table i.fas,
-table i.fab {
-  margin-right: 0.5em;
-  color: #5a9b8e;
-  width: 20px;
-  text-align: center;
-}
-
-/* Style pour les horaires (optionnel) */
-table span {
-  color: #666;
-  font-size: 0.9em;
-  margin-left: 0.5rem;
-}
-
-/*#endregion ------ Style pour le formulaire de contact ------ */
-
-/*#region ------ Style pour la page des produits ------ */
-
-/* Conteneur du carrousel */
-.carousel-container {
+/* Timeline */
+.timeline {
   position: relative;
-  max-width: 100%;
-  margin: 1rem auto;
-  overflow: hidden;
-  border-radius: 8px;
-}
-
-/* Carrousel */
-.carousel {
-  width: 100%;
-  overflow: hidden;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Conteneur des slides */
-.carousel-inner {
-  display: flex;
-  transition: transform 0.5s ease;
-}
-
-/* Chaque slide */
-.carousel-slide {
-  min-width: 100%;
-  box-sizing: border-box;
-}
-
-/* Images du carrousel */
-.carousel-img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-/* Boutons de navigation */
-.carousel-button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  border: none;
-  padding: 1rem;
-  cursor: pointer;
-  font-size: 1.5rem;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 10;
-  transition: background-color 0.3s;
-}
-
-.carousel-button:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Positionnement des flèches */
-.carousel-button.prev {
-  left: 10px; /* Ajustez cette valeur pour centrer verticalement */
-}
-
-.carousel-button.next {
-  right: 10px; /* Ajustez cette valeur pour centrer verticalement */
-}
-
-/* Styles pour la page produits uniquement */
-.coming-soon-product {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 2rem 0;
-  padding: 1.5rem;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  text-align: center;
   max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  padding: 20px 0;
 }
-
-.coming-soon-image {
-  width: 100%;
-  max-width: 600px;
-  height: 250px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 8px;
-  margin-bottom: 1rem;
-  filter: blur(7.5px);
+.timeline::before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background: #ccc;
+  top: 0;
+  bottom: 0;
+  left: 50%;
 }
-
-.coming-soon-title {
-  color: #5a9b8e;
-  margin-bottom: 0.75rem;
-  font-size: 1.3rem;
-}
-
-.coming-soon-description {
-  margin-bottom: 1rem;
-  line-height: 1.5;
-}
-
-/* Conteneur pour la date et le compte à rebours */
-.release-info {
-  margin: 1.5rem 0;
-  text-align: center;
-}
-
-/* Style pour la date de sortie */
-.release-date {
-  font-size: 1.1rem;
-  margin-bottom: 0.5rem;
-  color: #333;
-}
-
-/* Conteneur pour centrer le compte à rebours */
-.countdown-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 0.5rem;
-}
-
-/* Style pour le compte à rebours */
-.countdown {
-  display: flex;
-  gap: 0.5rem;
-  font-size: 1rem;
-}
-
-.countdown span {
-  background-color: #5a9b8e;
-  padding: 0.3rem 0.5rem;
-  border-radius: 4px;
-  font-weight: bold;
-  color: white;  
-  display: inline-block;
-  min-width: 2rem;
-  margin: 0 0.2rem;
-  font-size: 0.9rem;
-}
-/*#endregion ------ Style pour la page des produits ------ */
-
-/*#region ------ Style pour la page des designs ------ */
-
-/* Grille des designs (2 par ligne) */
-.designs-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
-  margin: 2rem 0;
-}
-
-.design-card {
-  background-color: white;
-  border-radius: 8px;
-  padding: 1.5rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  min-height: 400px; /* Hauteur minimale fixe */
-  display: flex;
-  flex-direction: column;
-  justify-content: normal;
-}
-
-.design-name {
-  color: #5a9b8e;
-  margin: 0.5rem;
-  font-size: 1.2rem;
-  text-align: center;
-  word-break: break-word;
-  min-height: 100px;
-  align-content: center;
-}
-
-.design-id {
-  color: #666;
-  font-size: 0.9rem;
-  margin-bottom: 1rem;
-  text-align: center;
-}
-
-/* Conteneur du carrousel pour les designs */
-.design-carousel-container {
+.timeline-item {
+  padding: 10px 40px;
   position: relative;
-  flex-grow: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-height: 200px;
+  width: 50%;
+}
+.timeline-item::after {
+  content: '';
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: #4CAF50;
+  border-radius: 50%;
+  top: 15px;
+  left: 50%;
+  z-index: 1;
+}
+.timeline-date {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.timeline-content {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+}
+.timeline-item:nth-child(odd) {
+  left: 0;
+}
+.timeline-item:nth-child(even) {
+  left: 50%;
 }
 
-.design-carousel {
-  width: 100%;
+/* Demi-cercles pour les compétences */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+.skill-item {
+  text-align: center;
+  margin: 10px;
+}
+.skill-chart {
+  position: relative;
+  width: 100px;
+  height: 50px;
+  background: conic-gradient(
+    var(--progress-color) 0deg var(--progress-end),
+    #f1f1f1 var(--progress-end) 360deg
+  );
+  border-radius: 50px 50px 0 0;
+  margin: 0 auto;
   overflow: hidden;
 }
-
-.design-carousel-inner {
-  display: flex;
-  transition: transform 0.5s ease;
-}
-
-.design-carousel-slide {
-  min-width: 100%;
-}
-
-.design-carousel-img {
+.skill-chart::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 200px;
-  object-fit: contain;
-  border-radius: 4px;
+  height: 100%;
+  background: #f1f1f1;
+  border-radius: 50px 50px 0 0;
+  transform-origin: center bottom;
+  transform: scaleY(1.1);
 }
-
-/* Boutons de navigation du carrousel */
-.design-carousel-button {
+.skill-percent {
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  border: none;
-  padding: 0.5rem;
-  cursor: pointer;
-  font-size: 1.2rem;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 10;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+  font-weight: bold;
 }
-
-.design-carousel-button.prev {
-  left: 10px;
-}
-
-.design-carousel-button.next {
-  right: 10px;
-}
-
-.design-carousel-button:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Produits associés */
-.design-products {
-  color: #666;
-  font-size: 0.9rem;
-  margin-top: 1rem;
-  font-style: italic;
-  text-align: center;
-}
-
-/* Responsive : 1 design par ligne sur mobile */
-@media (max-width: 768px) {
-  .designs-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-#design-count {
-  font-size: 1rem;
-  color: #666;
-  font-weight: normal;
-}
-
-/* Conteneur des filtres */
-.filter-container {
-  display: flex;
-  justify-content: center;
-  gap: 0.5rem;
-  margin: 2rem 0;
-  flex-wrap: wrap;
-}
-
-/* Boutons de filtrage */
-.filter-button {
-  padding: 0.5rem 1rem;
-  background-color: #f0f0f0;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.filter-button:hover {
-  background-color: #e0e0e0;
-}
-
-.filter-button.active {
-  background-color: #5a9b8e;
-  color: white;
-  border-color: #5a9b8e;
-}
-
-.no-results {
-  grid-column: 1 / -1;
-  text-align: center;
-  padding: 2rem;
-  color: #666;
-  font-style: italic;
-}
-
-/*#endregion ------ Style pour la page des designs ------ */
-
-/*#region ------ Style pour la page des posts ------ */
-
-/* Galerie d'images pour les événements */
-.event-gallery {
-  margin: 2rem 0;
-}
-
-.gallery-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin-bottom: 1rem;
-  justify-content: center;
-}
-
-.event-photo {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s;
-}
-
-.event-photo:hover {
-  transform: scale(1.02);
-}
-
-/* Responsive pour la galerie */
-@media (max-width: 768px) {
-  .gallery-row {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .event-photo {
-    max-width: 100%;
-  }
-}
-
-/*#endregion ------ Style pour la page des posts ------ */
+.skill-chart[data-percent="85"] { --progress-end: calc(85 * 3.6deg); --progress-color: #4CAF50; }
+.skill-chart[data-percent="80"] { --progress-end: calc(80 * 3.6deg); --progress-color: #4CAF50; }
+.skill-chart[data-percent="75"] { --progress-end: calc(75 * 3.6deg); --progress-color: #4CAF50; }
+.skill-chart[data-percent="70"] { --progress-end: calc(70 * 3.6deg); --progress-color: #4CAF50; }
+.skill-chart[data-percent="90"] { --progress-end: calc(90 * 3.6deg); --progress-color: #2196F3; }
+.skill-chart[data-percent="95"] { --progress-end: calc(95 * 3.6deg); --progress-color: #2196F3; }

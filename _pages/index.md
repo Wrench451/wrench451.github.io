@@ -1,91 +1,121 @@
 ---
 layout: single
 permalink: /
-title: Decabock 🌱
+title: Qui suis-je ? 💻​
 ---
 
-Chez **Decabock**, nous donnons une seconde vie au bois en créant des objets uniques, où l’esthétique rencontre l’utilité et la personnalisation. Spécialisés dans la fabrication artisanale d’objets en bois, nous mettons notre passion et notre savoir-faire au service de créations durables, conçues pour vous accompagner au quotidien. 
-{: .text-justify}
+Je m’appelle **Pierre Carteron**, j’ai 21 ans (né le 22 décembre 2003) et je suis actuellement en alternance au **CESI École d’Ingénieurs** à La Rochelle, tout en travaillant chez **Euro-Information** à Orléans en tant que analyste développeur.
+Passionné par l’informatique depuis le collège, je suis curieux depuis tout petit. J’aime **apprendre**, **découvrir** et **explorer** tout système, simple comme complexe.
 
-## Notre produit emblématique ? 
+---
 
-**Un dessous de verre ingénieux**, doté d’un décapsuleur intégré et discret, entièrement personnalisable grâce à une gravure sur bois de haute précision. Que ce soit pour offrir un cadeau unique, sublimer une décoration ou simplement ajouter une touche d’élégance à votre intérieur, chaque pièce Decabock est une alliance parfaite entre **fonctionnalité, beauté et singularité**.
-{: .text-justify}
+## Mon parcours professionnel récent
 
-<div class="carousel-container">
-  <button class="carousel-button prev" onclick="moveSlide(-1, 'DB-carousel')">❮</button>
-  <div class="carousel" id="DB-carousel">
-    <div class="carousel-inner">    
-      <div class="carousel-slide">
-        <img src="/assets/images/produits/decabock/DB_Aimanté_Twinning_Comitee_Linkded.jpeg" alt="Decabock - Décapsuleur" class="carousel-img">
-      </div>   
-      <div class="carousel-slide">
-        <img src="/assets/images/produits/decabock/DB_Twinning_Comitee_Linkded.jpeg" alt="Decabock - Vue de face" class="carousel-img">
-      </div>
-      <div class="carousel-slide">
-        <img src="/assets/images/produits/decabock/DB_Support_Verso_Twinning_Comitee.jpeg" alt="Decabock - Gravure personnalisée" class="carousel-img">
-      </div> 
-      <div class="carousel-slide">
-        <img src="/assets/images/produits/decabock/DB_iiclr_eventail.jpg" alt="Decabock Ici c'est la Rochelle - Eventail" class="carousel-img">
-      </div>
-      <div class="carousel-slide">
-        <img src="/assets/images/produits/decabock/DB_iiclr_pile_face.jpg" alt="Decabock Ici c'est la Rochelle - Gravure" class="carousel-img">
-      </div>
-      <div class="carousel-slide">
-        <img src="/assets/images/produits/decabock/DB_iiclr_pile_dos.jpg" alt="Decabock Ici c'est la Rochelle - Décapsuleur" class="carousel-img">
-      </div>
-      <div class="carousel-slide">
-        <img src="/assets/images/produits/decabock/Definition_apéro.png" alt="Decabock - Définition de l'apéro" class="carousel-img">
-      </div>
-      <div class="carousel-slide">
-        <img src="/assets/images/produits/decabock/J&apos;peux_pas_j&apos;ai_apéro.png" alt="Decabock - J'peux pas j'ai apéro" class="carousel-img">
-      </div>
+<div class="timeline">
+  <div class="timeline-item">
+    <div class="timeline-date">2023 - Présent</div>
+    <div class="timeline-content">
+      <h3>Alternant Développeur - Euro-Information, Orléans</h3>
+      <p>Développement d’outils internes, automatisation de processus, et participation à des projets DevOps.</p>
     </div>
   </div>
-  <button class="carousel-button next" onclick="moveSlide(1, 'DB-carousel')">❯</button>
+  <div class="timeline-item">
+    <div class="timeline-date">2022 - 2023</div>
+    <div class="timeline-content">
+      <h3>Stagiaire Développeur Web - Startup X, Paris</h3>
+      <p>Création d’une application web pour la gestion de clients, utilisant React et Node.js.</p>
+    </div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-date">2021 - 2022</div>
+    <div class="timeline-content">
+      <h3>Étudiant en Informatique - CESI, La Rochelle</h3>
+      <p>Formation en développement logiciel, bases de données et gestion de projet.</p>
+    </div>
+  </div>
 </div>
 
-## Pourquoi choisir Decabock ? 🤔​
+Pour découvrir **mon parcours professionnel complet**, [clique ici](parcours-professionnel).
 
-- **Artisanat 100% français** 🏡 : Des créations fabriquées localement, avec des matériaux nobles et sélectionnés pour leur durabilité.
-- **Personnalisation sur mesure** ​🛠️​ : Gravez vos initiales, un message ou un motif pour un objet qui vous ressemble.
-- **Innovation discrète** 🖌️ : Des designs pratiques et élégants, comme notre dessous de verre avec décapsuleur intégré. 
-- **Durabilité** 💪 : Des objets conçus pour durer, dans le respect de l’environnement.
+---
 
-## Rejoignez l’aventure Decabock
+## Mes compétences et soft skills
 
-Vous partagez nos valeurs ? Vous avez envie de soutenir un artisanat **local, éthique et innovant** ? Voici comment nous rejoindre :
-{: .text-justify}
+### Compétences techniques
+<div class="skills-container">
+  <div class="skill-item">
+    <div class="skill-chart" data-percent="85">
+      <div class="skill-percent">85%</div>
+    </div>
+    <p>Développement Web</p>
+  </div>
+  <div class="skill-item">
+    <div class="skill-chart" data-percent="80">
+      <div class="skill-percent">80%</div>
+    </div>
+    <p>Python</p>
+  </div>
+  <div class="skill-item">
+    <div class="skill-chart" data-percent="75">
+      <div class="skill-percent">75%</div>
+    </div>
+    <p>Base de données</p>
+  </div>
+  <div class="skill-item">
+    <div class="skill-chart" data-percent="70">
+      <div class="skill-percent">70%</div>
+    </div>
+    <p>DevOps</p>
+  </div>
+</div>
 
-- **Découvrez nos créations** : Explorez notre collection et trouvez l’objet qui vous correspond.
-- **Personnalisez votre pièce** : Laissez libre cours à votre créativité avec nos options de gravure.
-- **Suivez-nous sur les réseaux** : Pour ne rien manquer de nos actualités, conseils et nouveautés.
+### Soft Skills
+<div class="skills-container">
+  <div class="skill-item">
+    <div class="skill-chart" data-percent="90">
+      <div class="skill-percent">90%</div>
+    </div>
+    <p>Travail d’équipe</p>
+  </div>
+  <div class="skill-item">
+    <div class="skill-chart" data-percent="95">
+      <div class="skill-percent">95%</div>
+    </div>
+    <p>Résolution de problèmes</p>
+  </div>
+  <div class="skill-item">
+    <div class="skill-chart" data-percent="85">
+      <div class="skill-percent">85%</div>
+    </div>
+    <p>Adaptabilité</p>
+  </div>
+  <div class="skill-item">
+    <div class="skill-chart" data-percent="80">
+      <div class="skill-percent">80%</div>
+    </div>
+    <p>Créativité</p>
+  </div>
+</div>
 
-Chez Decabock, chaque objet raconte une histoire. **Et si la prochaine était la vôtre ?**
+Pour voir la **liste complète de mes compétences**, [clique ici](competences).
 
-<script>
-    // Position initiale des carrousels
-  let currentSlide = {
-    'DB-carousel': 0
-  };
+---
 
-  // Fonction pour déplacer les slides
-  function moveSlide(step, carouselId) {
-    const carousel = document.getElementById(carouselId);
-    const slides = carousel.querySelectorAll('.carousel-slide');
-    const totalSlides = slides.length;
+## Mes 3 derniers projets
 
-    // Mise à jour de la position actuelle
-    currentSlide[carouselId] += step;
+### 1. [Projet de Gestion de Base de Données pour Euro-Information](projets/gestion-bdd)
+**Technologies** : SQL, Python, Docker
+**Description** : Développement d’un outil de migration et de gestion de bases de données pour optimiser les processus internes.
+**Résultats** : Réduction de 30% du temps de traitement des données.
 
-    // Gestion des limites
-    if (currentSlide[carouselId] < 0) {
-      currentSlide[carouselId] = totalSlides - 1;
-    } else if (currentSlide[carouselId] >= totalSlides) {
-      currentSlide[carouselId] = 0;
-    }
+### 2. [Application Web de Suivi de Projets](projets/suivi-projets)
+**Technologies** : React, Node.js, MongoDB
+**Description** : Création d’une application pour suivre l’avancement des projets en temps réel.
+**Résultats** : Utilisée en interne par 20 collaborateurs.
 
-    // Déplacement du carrousel
-    carousel.querySelector('.carousel-inner').style.transform = `translateX(-${currentSlide[carouselId] * 100}%)`;
-  }
-</script>
+### 3. [Automatisation de Tests Logiciels](projets/automatisation-tests)
+**Technologies** : Selenium, Python, Jenkins
+**Description** : Mise en place d’un pipeline CI/CD pour automatiser les tests logiciels.
+**Résultats** : Gain de temps de 40% sur les tests manuels.
+
+Pour découvrir **tous mes projets**, [clique ici](projets).
