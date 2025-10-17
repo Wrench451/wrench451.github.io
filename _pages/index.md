@@ -16,7 +16,7 @@ Passionné par l’informatique depuis le collège, je suis curieux depuis tout 
     <div class="timeline-date">Octobre 2023 - Présent</div>
     <div class="timeline-content">
       <h3>Alternant - Analyste développeur</h3>
-      <h2>Euro-Information, Orléans</h2>
+      <p class="timeline-subtitle">Euro-Information, Orléans</p>
       <p>Développement et refonte d'applications internes transversales, gestion de projets et suivi de déploiement d’outils internes.</p>
     </div>
   </div>
@@ -24,7 +24,7 @@ Passionné par l’informatique depuis le collège, je suis curieux depuis tout 
     <div class="timeline-date">Janvier 2023 - Présent</div>
     <div class="timeline-content">
       <h3>Indépendant - Fondateur et dirigeant</h3>
-      <h2>Decabock, Chancay</h2>
+      <p class="timeline-subtitle">Decabock, Chancay</p>
       <p>Création et vente d'objets uniques en donnant une seconde vie au bois en alliant esthétisme et utilité.</p>
     </div>
   </div>
@@ -32,7 +32,7 @@ Passionné par l’informatique depuis le collège, je suis curieux depuis tout 
     <div class="timeline-date">Avril 2025 - Août 2025</div>
     <div class="timeline-content">
       <h3>Stagiaire - Analyste développeur</h3>      
-      <h2>Euro-Information, Orléans</h2>
+      <p class="timeline-subtitle">Euro-Information, Orléans</p>
       <p>Développement de maintenances évolutives et correctives d'applications internes transversales, gestion de projets et suivi de déploiement d’outils internes.</p>
     </div>
   </div>
