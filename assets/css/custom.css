@@ -44,7 +44,7 @@
   margin-bottom: 10px;
 }
 
-.timeline-content p {
+.timeline-description {
   margin: 0;
 }
 
@@ -75,15 +75,17 @@
   text-align: center;
   align-self: center;
   width: 150px;
+  height: 160px;
 }
 
 .progress p{
   position: relative;
   margin: 4px;
-  float:left;
+  float: left;
   text-align: center;
-  align-self: center;
+  align-content: center;
   width: 150px;
+  height: 66px;
 }
 
 .barOverflow{ /* Wraps the rotating .bar */

@@ -17,7 +17,7 @@ Passionné par l’informatique depuis le collège, je suis curieux depuis tout 
     <div class="timeline-content">
       <h3>Alternant - Analyste développeur</h3>
       <p class="timeline-subtitle">Euro-Information, Orléans</p>
-      <p>Développement et refonte d'applications internes transversales, gestion de projets et suivi de déploiement d’outils internes.</p>
+      <p class="timeline-description">Développement et refonte d'applications internes transversales, gestion de projets et suivi de déploiement d’outils internes.</p>
     </div>
   </div>
   <div class="timeline-item">
@@ -25,7 +25,7 @@ Passionné par l’informatique depuis le collège, je suis curieux depuis tout 
     <div class="timeline-content">
       <h3>Indépendant - Fondateur et dirigeant</h3>
       <p class="timeline-subtitle">Decabock, Chancay</p>
-      <p>Création et vente d'objets uniques en donnant une seconde vie au bois en alliant esthétisme et utilité.</p>
+      <p class="timeline-description">Création et vente d'objets uniques en donnant une seconde vie au bois en alliant esthétisme et utilité.</p>
     </div>
   </div>
   <div class="timeline-item">
@@ -33,7 +33,7 @@ Passionné par l’informatique depuis le collège, je suis curieux depuis tout 
     <div class="timeline-content">
       <h3>Stagiaire - Analyste développeur</h3>      
       <p class="timeline-subtitle">Euro-Information, Orléans</p>
-      <p>Développement de maintenances évolutives et correctives d'applications internes transversales, gestion de projets et suivi de déploiement d’outils internes.</p>
+      <p class="timeline-description">Développement de maintenances évolutives et correctives d'applications internes transversales, gestion de projets et suivi de déploiement d’outils internes.</p>
     </div>
   </div>
 </div>
