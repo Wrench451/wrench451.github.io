@@ -32,7 +32,7 @@ Passionné par l’informatique depuis le collège, je suis curieux depuis tout 
     <div class="timeline-date">Avril 2025 - Août 2025</div>
     <div class="timeline-content">
       <h3>Stagiaire - Analyste développeur</h3>      
-      <p class="timeline-subtitle">Euro-Information, Orléans</p>
+      <p class="timeline-subtitle">TAIT S.L, Barcelona</p>
       <p class="timeline-description">Développement de maintenances évolutives et correctives d'applications internes transversales, gestion de projets et suivi de déploiement d’outils internes.</p>
     </div>
   </div>
@@ -68,10 +68,14 @@ Pour découvrir **mon parcours professionnel complet**, [clique ici](parcours-pr
   </div>
   <div class="progress">
     <div class="barOverflow">
-      <div class="bar" style="--r : 95"></div>
+      <div class="bar" style="--r: 95"></div>
     </div>
     <span>95</span>%
     <p>Anglais</p>
+    <!-- Ajoute une div pour l'infobulle -->
+    <div class="hint">
+      Niveau avancé : Maîtrise presque totale de la langue.
+    </div>
   </div>
 </div>
 
@@ -127,3 +131,13 @@ Pour voir la **liste complète de mes compétences**, [clique ici](competences).
 **Résultats** : Gain de temps de 40% sur les tests manuels.
 
 Pour découvrir **tous mes projets**, [clique ici](projets).
+
+<script>
+  const progressDiv = document.querySelector('.progress');
+  const hintDiv = document.querySelector('.hint');
+
+  progressDiv.addEventListener('click', (e) => {
+    hintDiv.style.opacity = hintDiv.style.opacity === '1' ? '0' : '1';
+    hintDiv.style.visibility = hintDiv.style.opacity === '1' ? 'visible' : 'hidden';
+  });
+</script>
