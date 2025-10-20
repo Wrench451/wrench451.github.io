@@ -46,6 +46,7 @@
 
 .timeline-description {
   margin: 0;
+  text-align: justify;
 }
 
 .timeline-item:nth-child(odd) {
