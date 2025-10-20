@@ -47,17 +47,17 @@ Pour découvrir **mon parcours professionnel complet**, [clique ici](parcours-pr
 <div class="skills-container">
   <div class="progress">
     <div class="barOverflow">
-      <div class="bar" style="--r : 85"></div>
+      <div class="bar" style="--r : 80"></div>
     </div>
-    <span>85</span>%
+    <span>80</span>%
     <p>Développement Web</p>
   </div>
   <div class="progress">
     <div class="barOverflow">
-      <div class="bar" style="--r : 70"></div>
+      <div class="bar" style="--r : 90"></div>
     </div>
-    <span>70</span>%
-    <p>Python</p>
+    <span>90</span>%
+    <p>Développement logiciel</p>
   </div>
   <div class="progress">
     <div class="barOverflow">
@@ -72,9 +72,8 @@ Pour découvrir **mon parcours professionnel complet**, [clique ici](parcours-pr
     </div>
     <span>95</span>%
     <p>Anglais</p>
-    <!-- Ajoute une div pour l'infobulle -->
     <div class="hint">
-      Niveau avancé : Maîtrise presque totale de la langue.
+      Niveau avancé au TOEIC : 810/990.
     </div>
   </div>
 </div>
@@ -115,29 +114,20 @@ Pour voir la **liste complète de mes compétences**, [clique ici](competences).
 
 ## Mes 3 derniers projets
 
-### 1. [Projet de Gestion de Base de Données pour Euro-Information](projets/gestion-bdd)
-**Technologies** : SQL, Python, Docker
-**Description** : Développement d’un outil de migration et de gestion de bases de données pour optimiser les processus internes.
-**Résultats** : Réduction de 30% du temps de traitement des données.
+### 1. [Création d’un site statique de présentation pour Decabock](projets/decabock-site)
+**Technologies** : Markdown, Jekyll, Minimal Mistakes  <br>
+**Description** : Conception d’un site vitrine statique pour mon entreprise *Decabock*, visant à améliorer sa visibilité en ligne grâce à un nom de domaine personnalisé. Le site présente les produits, les designs et les services de manière claire et élégante.  <br>
+**Résultats** : Amélioration de la présence en ligne et meilleure accessibilité des informations pour les clients.<br>
 
-### 2. [Application Web de Suivi de Projets](projets/suivi-projets)
-**Technologies** : React, Node.js, MongoDB
-**Description** : Création d’une application pour suivre l’avancement des projets en temps réel.
-**Résultats** : Utilisée en interne par 20 collaborateurs.
+### 2. [Développement d’un site web dynamique “Mangeur Kiffeur”](projets/mangeur-kiffeur)
+**Technologies** : React, Next.js, MongoDB <br>
+**Description** : Réalisation d’un site web inspiré d’Uber Eats dans le cadre d’un projet scolaire en équipe. Ce projet inclut la gestion de bases de données pour les restaurants, les utilisateurs et les administrateurs, ainsi que la conception des interfaces et de l’architecture applicative. <br>
+**Résultats** : Application fonctionnelle permettant la gestion complète des commandes et des utilisateurs, validée lors du projet académique. <br>
 
-### 3. [Automatisation de Tests Logiciels](projets/automatisation-tests)
-**Technologies** : Selenium, Python, Jenkins
-**Description** : Mise en place d’un pipeline CI/CD pour automatiser les tests logiciels.
-**Résultats** : Gain de temps de 40% sur les tests manuels.
+
+### 3. [Création d’un Photobooth éco-responsable – Nuit de l’Info 2023](projets/photobooth-ndi)
+**Technologies** : Python, Raspberry Pi, Électronique embarquée  <br>
+**Description** : Conception et fabrication d’un photobooth DIY éco-responsable dans le cadre de la *Nuit de l’Info 2023*. Le projet combinait la construction physique de la borne (bois et électronique) et le développement d’une application interne sur Raspberry Pi.  <br>
+**Résultats** : Projet lauréat du défi éco-responsable, salué pour son innovation et son intégration matériel-logiciel.<br>
 
 Pour découvrir **tous mes projets**, [clique ici](projets).
-
-<script>
-  const progressDiv = document.querySelector('.progress');
-  const hintDiv = document.querySelector('.hint');
-
-  progressDiv.addEventListener('click', (e) => {
-    hintDiv.style.opacity = hintDiv.style.opacity === '1' ? '0' : '1';
-    hintDiv.style.visibility = hintDiv.style.opacity === '1' ? 'visible' : 'hidden';
-  });
-</script>

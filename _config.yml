@@ -27,7 +27,7 @@ markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 5 # amount of projets to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -77,10 +77,10 @@ footer:
       url: "https://www.linkedin.com/in/pierre-carteron-173842212/"
 
 defaults:
-  # _posts
+  # _projets
   - scope:
       path: ""
-      type: posts
+      type: projets
     values:
       layout: single
       author_profile: true

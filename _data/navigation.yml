@@ -1,13 +1,11 @@
 main:
   - title: "Accueil"
     url: /
-  - title: "Nos valeurs"
-    url: /valeurs/
-  - title: "Nos produits"
-    url: /produits/
-  - title: "Nos designs"
-    url: /designs/
-  - title: "Nous contacter"
-    url: /nous-contacter/
-  - title: "Actualités"
-    url: /posts/
+  - title: "Mon parcours"
+    url: /mon-parcours/
+  - title: "Mes compétences"
+    url: /competences/
+  - title: "Mes projets"
+    url: /projets/
+  - title: "Me contacter"
+    url: /me-contacter/

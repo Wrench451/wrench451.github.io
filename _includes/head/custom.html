@@ -1,2 +1,15 @@
 <!-- Lien vers votre CSS personnalisé -->
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+<!-- Favicon clair (mode clair) -->
+<link
+  rel="icon"
+  href="{{ '/assets/images/favicon_default.png' | relative_url }}"
+  media="(prefers-color-scheme: light)"
+>
+
+<!-- Favicon sombre (mode sombre) -->
+<link
+  rel="icon"
+  href="{{ '/assets/images/favicon_dark_mode.png' | relative_url }}"
+  media="(prefers-color-scheme: dark)"
+>
