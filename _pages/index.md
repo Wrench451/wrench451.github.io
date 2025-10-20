@@ -115,28 +115,19 @@ Pour voir la **liste complète de mes compétences**, [clique ici](competences).
 ## Mes 3 derniers projets
 
 ### 1. [Création d’un site statique de présentation pour Decabock](projets/decabock-site)
-**Technologies** : Markdown, Jekyll, Minimal Mistakes
-{: .text-justify} <br>
-**Description** : Conception d’un site vitrine statique pour mon entreprise *Decabock*, visant à améliorer sa visibilité en ligne grâce à un nom de domaine personnalisé. Le site présente les produits, les designs et les services de manière claire et élégante.
-{: .text-justify}  <br>
-**Résultats** : Amélioration de la présence en ligne et meilleure accessibilité des informations pour les clients.
-{: .text-justify} <br>
+**Technologies** : Markdown, Jekyll, Minimal Mistakes<br>
+**Description** : Conception d’un site vitrine statique pour mon entreprise *Decabock*, visant à améliorer sa visibilité en ligne grâce à un nom de domaine personnalisé. Le site présente les produits, les designs et les services de manière claire et élégante.<br>
+**Résultats** : Amélioration de la présence en ligne et meilleure accessibilité des informations pour les clients.<br>
 
 ### 2. [Développement d’un site web dynamique “Mangeur Kiffeur”](projets/mangeur-kiffeur)
-**Technologies** : React, Next.js, MongoDB
-{: .text-justify} <br>
-**Description** : Réalisation d’un site web inspiré d’Uber Eats dans le cadre d’un projet scolaire en équipe. Ce projet inclut la gestion de bases de données pour les restaurants, les utilisateurs et les administrateurs, ainsi que la conception des interfaces et de l’architecture applicative.
-{: .text-justify} <br>
-**Résultats** : Application fonctionnelle permettant la gestion complète des commandes et des utilisateurs, validée lors du projet académique.
-{: .text-justify} <br>
+**Technologies** : React, Next.js, MongoDB<br>
+**Description** : Réalisation d’un site web inspiré d’Uber Eats dans le cadre d’un projet scolaire en équipe. Ce projet inclut la gestion de bases de données pour les restaurants, les utilisateurs et les administrateurs, ainsi que la conception des interfaces et de l’architecture applicative.<br>
+**Résultats** : Application fonctionnelle permettant la gestion complète des commandes et des utilisateurs, validée lors du projet académique.<br>
 
 
 ### 3. [Création d’un Photobooth éco-responsable – Nuit de l’Info 2023](projets/photobooth-ndi)
-**Technologies** : Python, Raspberry Pi, Électronique embarquée
-{: .text-justify}  <br>
-**Description** : Conception et fabrication d’un photobooth DIY éco-responsable dans le cadre de la *Nuit de l’Info 2023*. Le projet combinait la construction physique de la borne (bois et électronique) et le développement d’une application interne sur Raspberry Pi.
-{: .text-justify}  <br>
-**Résultats** : Projet lauréat du défi éco-responsable, salué pour son innovation et son intégration matériel-logiciel.
-{: .text-justify} <br>
+**Technologies** : Python, Raspberry Pi, Électronique embarquée<br>
+**Description** : Conception et fabrication d’un photobooth DIY éco-responsable dans le cadre de la *Nuit de l’Info 2023*. Le projet combinait la construction physique de la borne (bois et électronique) et le développement d’une application interne sur Raspberry Pi.<br>
+**Résultats** : Projet lauréat du défi éco-responsable, salué pour son innovation et son intégration matériel-logiciel.<br>
 
 Pour découvrir **tous mes projets**, [clique ici](projets).
