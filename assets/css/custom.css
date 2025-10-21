@@ -1,4 +1,4 @@
-/* Timeline */
+/*#region Page Index*/
 .timeline {
   position: relative;
   max-width: 800px;
@@ -143,3 +143,14 @@
   opacity: 1;
   visibility: visible;
 }
+
+/*#endregion */
+
+/*#region Page Mon parcours*/
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+/*#endregion */
