@@ -2,6 +2,7 @@
 layout: single
 permalink: /
 title: Qui suis-je ? 💻​
+classes: wide
 ---
 
 Je m’appelle **Pierre Carteron**, j’ai 21 ans (né le 22 décembre 2003) et je suis actuellement en alternance au **CESI École d’Ingénieurs** à La Rochelle, tout en travaillant chez **Euro-Information** à Orléans en tant que analyste développeur.
@@ -12,38 +13,7 @@ Passionné par l’informatique depuis le collège, je suis curieux depuis tout 
 ## Mon parcours professionnel récent
 
 <div class="timeline">
-  <div class="timeline-item">
-    <div class="timeline-date">Octobre 2023 - Aujourd'hui</div>
-    <div class="timeline-content">
-      <h3>Alternant - Analyste développeur</h3>
-      <p class="timeline-subtitle">Euro-Information - Orléans, France</p>
-      <p class="timeline-description">
-        Développement et refonte d'applications internes transversales, gestion de projets et suivi de déploiement d’outils internes.
-      </p>
-    </div>
-  </div>
 
-  <div class="timeline-item">
-    <div class="timeline-date">Janvier 2023 - Aujourd'hui</div>
-    <div class="timeline-content">
-      <h3>Indépendant - Fondateur et dirigeant</h3>
-      <p class="timeline-subtitle">Decabock - Chançay, France</p>
-      <p class="timeline-description">
-        Création et vente d'objets uniques en donnant une seconde vie au bois en alliant esthétisme et utilité.
-      </p>
-    </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-date">Octobre 2025 (1 mois)</div>
-    <div class="timeline-content">
-      <h3>Stagiaire - Ingénieur recherche/Développement</h3>      
-      <p class="timeline-subtitle">Fab Lab du Pays d'Aix - Aix-en-Provence, France</p>
-      <p class="timeline-description">
-        Développement de maintenances évolutives et correctives d'applications internes transversales, gestion de projets et suivi de déploiement d’outils internes.
-      </p>
-    </div>
-  </div>
 </div>
 
 Pour découvrir **mon parcours professionnel complet**, [clique ici](mon-parcours).
@@ -139,3 +109,53 @@ Pour voir la **liste complète de mes compétences**, [clique ici](competences).
 **Résultats** : Projet lauréat du défi éco-responsable, salué pour son innovation et son intégration matériel-logiciel.<br>
 
 Pour découvrir **tous mes projets**, [clique ici](projets).
+
+<script>
+  // Charge le fichier JSON et génère dynamiquement la timeline
+
+  async function loadTimeline() {
+    try {
+      const response = await fetch('/assets/data/parcours.json');
+      if (!response.ok) throw new Error('Erreur lors du chargement du parcours professionnel');
+
+      const parcours = await response.json();
+      const timelineContainer = document.getElementById('timeline');
+
+      // Vider le conteneur avant d'insérer les items
+      timelineContainer.innerHTML = '';
+
+      // Afficher seulement les 3 premiers éléments (les plus récents)
+      const parcoursToShow = parcours.slice(0, 3);
+
+      parcoursToShow.forEach(item => {
+        const timelineItem = document.createElement('div');
+        timelineItem.className = 'timeline-item';
+        timelineItem.innerHTML = `
+          <div class="timeline-date">${item.date}</div>
+          <div class="timeline-content">
+            <h3>${item.poste}</h3>
+            <p class="timeline-subtitle">${item.entreprise}</p>
+            <p class="timeline-description">${item.description}</p>
+          </div>
+        `;
+        timelineContainer.appendChild(timelineItem);
+      });
+
+      // Si tu veux indiquer qu’il existe d’autres expériences :
+      if (parcours.length > 3) {
+        const moreNotice = document.createElement('p');
+        moreNotice.className = 'timeline-more';
+        moreNotice.innerHTML = `...et ${parcours.length - 3} autres expériences à découvrir`;
+        timelineContainer.appendChild(moreNotice);
+      }
+
+    } catch (error) {
+      console.error(error);
+      document.getElementById('timeline').innerHTML =
+        '<p class="error">Impossible de charger le parcours professionnel.</p>';
+    }
+  }
+
+  // Lancement au chargement du DOM
+  document.addEventListener('DOMContentLoaded', loadTimeline);
+</script>

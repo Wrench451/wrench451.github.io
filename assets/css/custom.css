@@ -144,6 +144,13 @@
   visibility: visible;
 }
 
+.timeline-more {
+  font-style: italic;
+  color: #777;
+  margin-top: 1rem;
+  padding-left: 1rem;
+}
+
 /*#endregion */
 
 /*#region Page Mon parcours*/
