@@ -22,6 +22,36 @@
     "poste": "Stagiaire - Analyste développeur",
     "entreprise": "TAIT España, S.L. - Barcelona, Espagne",
     "description": "Développement de maintenances évolutives et correctives d'applications internes transversales, gestion de projets et suivi de déploiement d’outils internes."
+  },
+  {
+    "date": "Avril 2023 - Juillet 2023",
+    "poste": "Stagiaire - Développeur full-stack",
+    "entreprise": "C2S - Bouygues Telecom Entreprises - Tours, France",
+    "description": "Développement d'une application cross-platform avec la technologie MAUI et gestion de la base de données associée en SQL."
+  },
+  {
+    "date": "Juillet 2022 - Août 2022",
+    "poste": "Intérimaire - Préparateur de commandes",
+    "entreprise": "Auchan Retail Logistique - Saint-Pierre-des-Corps, France",
+    "description": "Préparateur de commandes en entrepôt logistique pour plusieurs magasins et drives Auchan alentours."
+  },
+  {
+    "date": "Juillet 2021 - Août 2021",
+    "poste": "CDD - Exploitant agricole",
+    "entreprise": "EARL Renard Didier - Saint-Pierre-des-Corps, France",
+    "description": "Exploitation agricole spécialisée dans la culture des tomates, travail saisonnier en serre."
+  },
+  {
+    "date": "Avril 2019 (1 semaine)",
+    "poste": "Stagiaire - Développeur full-stack",
+    "entreprise": "C2S - Bouygues Telecom Entreprises - Tours, France",
+    "description": "Stage d'observation volontaire lors de ma seconde au lycée où j'ai pu découvrir pendant une semaine le métier de développeur Full Stack et faire mes premiers pas dans le monde du développement web."
+  },
+  {
+    "date": "Février 2018 (1 semaine)",
+    "poste": "Stagiaire - Multiservices informatiques",
+    "entreprise": "OPEN - Tours, France",
+    "description": "Stage d'observation de 3ème au sein de l'entreprise Open où j'ai été accueilli chaque jour dans un nouveau service pour découvrir leur métier au quotidien."
   }
 ]
 
