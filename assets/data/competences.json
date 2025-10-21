@@ -1,0 +1,39 @@
+{
+  "techniques": [
+    {
+      "nom": "Développement Web",
+      "niveau": 80
+    },
+    {
+      "nom": "Développement logiciel",
+      "niveau": 90
+    },
+    {
+      "nom": "Base de données",
+      "niveau": 75
+    },
+    {
+      "nom": "Anglais",
+      "niveau": 95,
+      "hint": "Niveau avancé au TOEIC : 810/990."
+    }
+  ],
+  "softskills": [
+    {
+      "nom": "Travail d'équipe",
+      "niveau": 90
+    },
+    {
+      "nom": "Résolution de problèmes",
+      "niveau": 95
+    },
+    {
+      "nom": "Adaptabilité",
+      "niveau": 85
+    },
+    {
+      "nom": "Créativité",
+      "niveau": 80
+    }
+  ]
+}

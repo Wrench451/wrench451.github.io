@@ -22,70 +22,14 @@ Pour découvrir **mon parcours professionnel complet**, [clique ici](mon-parcour
 
 ### Compétences techniques
 
-<div class="skills-container">
-  <div class="progress">
-    <div class="barOverflow">
-      <div class="bar" style="--r : 80"></div>
-    </div>
-    <span>80</span>%
-    <p>Développement Web</p>
-  </div>
-  <div class="progress">
-    <div class="barOverflow">
-      <div class="bar" style="--r : 90"></div>
-    </div>
-    <span>90</span>%
-    <p>Développement logiciel</p>
-  </div>
-  <div class="progress">
-    <div class="barOverflow">
-      <div class="bar" style="--r : 75"></div>
-    </div>
-    <span>75</span>%
-    <p>Base de données</p>
-  </div>
-  <div class="progress">
-    <div class="barOverflow">
-      <div class="bar" style="--r: 95"></div>
-    </div>
-    <span>95</span>%
-    <p>Anglais</p>
-    <div class="hint">
-      Niveau avancé au TOEIC : 810/990.
-    </div>
-  </div>
+<div id="skills-tech" class="skills-container">
+
 </div>
 
 ### Soft Skills
-<div class="skills-container">
-  <div class="progress">
-    <div class="barOverflow">
-      <div class="bar" style="--r : 90"></div>
-    </div>
-    <span>90</span>%
-    <p>Travail d'équipe</p>
-  </div>
-  <div class="progress">
-    <div class="barOverflow">
-      <div class="bar" style="--r : 95"></div>
-    </div>
-    <span>95</span>%
-    <p>Résolution de problèmes</p>
-  </div>
-  <div class="progress">
-    <div class="barOverflow">
-      <div class="bar" style="--r : 85"></div>
-    </div>
-    <span>85</span>%
-    <p>Adaptabilité</p>
-  </div>
-  <div class="progress">
-    <div class="barOverflow">
-      <div class="bar" style="--r : 80"></div>
-    </div>
-    <span>80</span>%
-    <p>Créativité</p>
-  </div>
+
+<div id="skills-soft" class="skills-container">
+
 </div>
 
 Pour voir la **liste complète de mes compétences**, [clique ici](competences).
@@ -111,7 +55,7 @@ Pour voir la **liste complète de mes compétences**, [clique ici](competences).
 Pour découvrir **tous mes projets**, [clique ici](projets).
 
 <script>
-  // Charge le fichier JSON et génère dynamiquement la timeline
+  // === Timeline et Compétences pour la page d'accueil ===
 
   async function loadTimeline() {
     try {
@@ -120,12 +64,9 @@ Pour découvrir **tous mes projets**, [clique ici](projets).
 
       const parcours = await response.json();
       const timelineContainer = document.getElementById('timeline');
-
-      // Vider le conteneur avant d'insérer les items
       timelineContainer.innerHTML = '';
 
-      // Afficher seulement les 3 premiers éléments (les plus récents)
-      const parcoursToShow = parcours.slice(0, 3);
+      const parcoursToShow = parcours.slice(0, 3); // 3 expériences max
 
       parcoursToShow.forEach(item => {
         const timelineItem = document.createElement('div');
@@ -141,7 +82,6 @@ Pour découvrir **tous mes projets**, [clique ici](projets).
         timelineContainer.appendChild(timelineItem);
       });
 
-      // Si tu veux indiquer qu’il existe d’autres expériences :
       if (parcours.length > 3) {
         const moreNotice = document.createElement('p');
         moreNotice.className = 'timeline-more';
@@ -156,6 +96,69 @@ Pour découvrir **tous mes projets**, [clique ici](projets).
     }
   }
 
-  // Lancement au chargement du DOM
-  document.addEventListener('DOMContentLoaded', loadTimeline);
+  async function loadCompetences() {
+    try {
+      const response = await fetch('/assets/data/competences.json');
+      if (!response.ok) throw new Error('Erreur lors du chargement des compétences');
+
+      const data = await response.json();
+      const techContainer = document.getElementById('skills-tech');
+      const softContainer = document.getElementById('skills-soft');
+
+      techContainer.innerHTML = '';
+      softContainer.innerHTML = '';
+
+      const createSkill = (skill) => {
+        const progress = document.createElement('div');
+        progress.className = 'progress';
+        progress.innerHTML = `
+          <div class="barOverflow">
+            <div class="bar" style="--r: ${skill.niveau}"></div>
+          </div>
+          <span>${skill.niveau}</span>%
+          <p>${skill.nom}</p>
+          ${skill.hint ? `<div class="hint">${skill.hint}</div>` : ''}
+        `;
+        return progress;
+      };
+
+      // Afficher seulement les 4 premières compétences techniques
+      const techToShow = data.techniques.slice(0, 4);
+      techToShow.forEach(skill => techContainer.appendChild(createSkill(skill)));
+
+      // Message sur le nombre de compétences restantes
+      const remainingTech = data.techniques.length - techToShow.length;
+      if (remainingTech > 0) {
+        const moreTech = document.createElement('p');
+        moreTech.className = 'skills-more';
+        moreTech.innerHTML = `...et ${remainingTech} compétence(s) technique(s) supplémentaire(s)`;
+        techContainer.appendChild(moreTech);
+      }
+
+      // Afficher seulement les 4 premières soft skills
+      const softToShow = data.softskills.slice(0, 4);
+      softToShow.forEach(skill => softContainer.appendChild(createSkill(skill)));
+
+      // Message sur le nombre de soft skills restantes
+      const remainingSoft = data.softskills.length - softToShow.length;
+      if (remainingSoft > 0) {
+        const moreSoft = document.createElement('p');
+        moreSoft.className = 'skills-more';
+        moreSoft.innerHTML = `...et ${remainingSoft} soft skill(s) supplémentaire(s)`;
+        softContainer.appendChild(moreSoft);
+      }
+
+    } catch (error) {
+      console.error(error);
+      const errorMsg = '<p class="error">Impossible de charger les compétences.</p>';
+      document.getElementById('skills-tech').innerHTML = errorMsg;
+      document.getElementById('skills-soft').innerHTML = errorMsg;
+    }
+  }
+
+  // Lancer au chargement du DOM
+  document.addEventListener('DOMContentLoaded', () => {
+    loadTimeline();
+    loadCompetences();
+  });
 </script>
