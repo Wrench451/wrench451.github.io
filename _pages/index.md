@@ -12,7 +12,7 @@ Passionné par l’informatique depuis le collège, je suis curieux depuis tout 
 
 ## Mon parcours professionnel récent
 
-<div class="timeline">
+<div id="timeline" class="timeline">
 
 </div>
 
