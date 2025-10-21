@@ -1,5 +1,5 @@
 ---
-permalink: /produits/
+permalink: /competences/
 title: "Nos produits"
 layout: single
 author_profile: true

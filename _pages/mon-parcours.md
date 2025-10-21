@@ -1,7 +1,7 @@
 ---
 title: "Nos Designs 🎨"
 layout: single
-permalink: /designs/
+permalink: /mon-parcours/
 ---
 
 Découvrez tous nos **designs personnalisables** pour sublimer vos produits Decabock. Chaque design est disponible sur un ou plusieurs produits.
