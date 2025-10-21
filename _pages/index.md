@@ -46,7 +46,7 @@ Passionné par l’informatique depuis le collège, je suis curieux depuis tout 
   </div>
 </div>
 
-Pour découvrir **mon parcours professionnel complet**, [clique ici](parcours-professionnel).
+Pour découvrir **mon parcours professionnel complet**, [clique ici](mon-parcours).
 
 ## Mes compétences et soft skills
 

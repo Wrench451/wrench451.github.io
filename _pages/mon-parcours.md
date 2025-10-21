@@ -7,9 +7,7 @@ toc: false
 classes: wide
 ---
 
-## Mon parcours professionnel récent
-
-<div class="timeline">
+<div id="timeline" class="timeline">
 
 </div>
 
